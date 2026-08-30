@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="7" fill="#09090c"/>
+  <!-- "82" -->
+  <text x="3.5" y="22" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="900" font-size="14" fill="#f5f5fa" letter-spacing="-0.5">82</text>
+  <!-- orange hyphen bar -->
+  <rect x="17.5" y="14.5" width="3" height="2" rx="1" fill="#ff7a1a"/>
+  <!-- "0" hoop -->
+  <circle cx="24" cy="16" r="5" fill="none" stroke="#ff7a1a" stroke-width="2"/>
+</svg>

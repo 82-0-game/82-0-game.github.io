@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en" class="anton_a8b17dcd-module__Xi7J6a__variable hanken_grotesk_7f5e2a8f-module__dpJRea__variable archivo_4af85f35-module__rW9rwa__variable">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'none'; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="theme-color" content="#ff553c">
+<title>82-0 game</title>
+<link rel="stylesheet" href="/82-0-game/_next/static/chunks/34igxablklb1u.css">
+<link rel="icon" href="/82-0-game/favicon.svg" type="image/svg+xml">
+<style>
+.result-shell{width:100%;max-width:960px;margin:0 auto;padding:28px 14px 64px}.result-hero{text-align:center;padding:28px 10px}.record-big{font-family:var(--font-anton),Impact,sans-serif;font-size:clamp(76px,18vw,176px);line-height:.82;letter-spacing:-.04em;text-transform:uppercase}.result-grid{display:grid;grid-template-columns:1fr;gap:16px}@media(min-width:800px){.result-grid{grid-template-columns:1.05fr .95fr}}.panel82{border:2px solid var(--ink);background:var(--paper-soft);box-shadow:3px 3px 0 var(--ink);padding:18px}.lineup-row{display:grid;grid-template-columns:42px 48px minmax(0,1fr);align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid color-mix(in srgb,var(--ink) 18%,transparent)}.lineup-row:last-child{border-bottom:0}.avatar82{width:44px;height:44px;border-radius:999px;border:2px solid var(--ink);display:grid;place-items:center;font-family:var(--font-anton),Impact,sans-serif;background:color-mix(in srgb,var(--accent) 18%,var(--paper-soft));font-size:16px}.pos82{font-family:var(--font-anton),Impact,sans-serif;color:var(--accent);font-size:13px;letter-spacing:.12em}.pname82{font-weight:800}.meta82{font-size:11px;color:var(--muted);margin-top:2px}.stats-mini{grid-column:2/4;display:flex;gap:6px;flex-wrap:wrap}.stat-pill{border:1px solid color-mix(in srgb,var(--ink) 35%,transparent);border-radius:999px;padding:2px 6px;font-size:10px}.metric82{margin:14px 0}.metric-head{display:flex;justify-content:space-between;gap:10px;font-weight:800}.metric-sub{font-size:11px;color:var(--muted)}.bar82{height:12px;border:2px solid var(--ink);margin-top:7px;background:var(--paper)}.fill82{height:100%;background:var(--accent);max-width:100%}.metric82.met .fill82{background:var(--accent-2)}.actions82{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:22px}.recap82{margin-top:20px}.games82{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:12px}@media(min-width:700px){.games82{grid-template-columns:repeat(4,minmax(0,1fr))}}.game82{border:1px solid color-mix(in srgb,var(--ink) 28%,transparent);background:var(--paper-soft);padding:8px;border-radius:8px}.game82 .wl{font-family:var(--font-anton),Impact,sans-serif}.game82.loss .wl{color:var(--accent)}.game82.win .wl{color:var(--accent-2)}.game82 .score{font-weight:800;font-size:12px}.game82 .moment{font-size:10px;color:var(--muted);margin-top:3px}.notice82{border:2px solid var(--ink);padding:16px;background:var(--paper-soft);box-shadow:3px 3px 0 var(--ink);max-width:700px;margin:70px auto}.copy-state{font-size:12px;margin-top:8px;text-align:center;min-height:18px;color:var(--muted)}
+</style>
+<script>window.ARCADEFLOW_PUBLIC_API="https://api.unblocked-games-66.org";window.ARCADEFLOW_PUBLIC_API_SITE="82-0-game";</script></head>
+<body class="page-edges antialiased min-h-screen flex flex-col">
+<main class="flex flex-1 flex-col">
+<div id="app" class="result-shell" hidden>
+  <div class="result-hero">
+    <p class="chip mb-4 uppercase tracking-[0.22em]"><span class="text-[var(--accent)]">●</span> Season complete</p>
+    <div id="record" class="record-big">--</div>
+    <h1 id="title" class="font-display mt-5 text-3xl uppercase sm:text-5xl">Season result</h1>
+    <p id="subtitle" class="mx-auto mt-3 max-w-xl text-sm text-[var(--ink)]/80 sm:text-base"></p>
+    <div class="actions82">
+      <button id="backBtn" class="btn">Back to lineup</button>
+      <button id="againBtn" class="btn btn-primary">Try another lineup</button>
+      <button id="copyBtn" class="btn">Copy result</button>
+    </div>
+    <div id="copyState" class="copy-state"></div>
+  </div>
+  <div class="result-grid">
+    <section class="panel82"><p class="font-display text-xs uppercase tracking-[0.28em] text-[var(--accent)]">Your lineup</p><div id="lineup"></div></section>
+    <section class="panel82"><p class="font-display text-xs uppercase tracking-[0.28em] text-[var(--accent)]">How they got there</p><div id="breakdown"></div></section>
+  </div>
+  <details class="panel82 recap82" open><summary class="font-display cursor-pointer text-lg uppercase">Season recap · 82 games</summary><div id="games" class="games82"></div></details>
+</div>
+<div id="invalid" class="notice82" hidden><h1 class="font-display text-3xl uppercase">Lineup not found</h1><p class="mt-3 text-sm">This result link is incomplete or invalid.</p><a class="btn btn-primary mt-5 inline-flex" href="/82-0-game/play/">Start a new game</a></div>
+</main>
+<script src="/82-0-game/assets/game-data.js"></script>
+<script src="/82-0-game/assets/result.js"></script>
+</body></html>
