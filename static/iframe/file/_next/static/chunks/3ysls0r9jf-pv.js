@@ -1808,7 +1808,7 @@
                     mode: n,
                     rounds: t
                 }).mode ? "h" : "c", p = s.rounds.map(s => `${s.slot.teamId}:${s.slot.decade}:${s.playerId??"_"}`).join(","), e = `${a}|${p}`, "function" == typeof btoa ? btoa(e).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "") : D.Buffer.from(e, "utf-8").toString("base64").replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, ""));
-                window.location.assign(`/82-0-game/share/?l=${i}`)
+                window.location.assign(`/static/iframe/file/share/?l=${i}`)
             }, [n, k, g]),
             V = (0, a.useMemo)(() => w ? o.filter(s => s.teamDecades.some(([s, e]) => s === w.teamId && e === w.decade)) : [], [w]);
         if ("select" === m || !n) return (0, e.jsx)(S, {

@@ -2863,7 +2863,7 @@
         K = "private-next-rsc-track-dynamic-import",
         q = "private-next-rsc-action-encryption",
         Y = "private-next-rsc-action-client-wrapper",
-        W = "You can not have a '_next' folder inside of your public folder. This conflicts with the internal '/82-0-game/_next' route. https://nextjs.org/docs/messages/public-next-folder-conflict",
+        W = "You can not have a '_next' folder inside of your public folder. This conflicts with the internal '/static/iframe/file/_next' route. https://nextjs.org/docs/messages/public-next-folder-conflict",
         z = "You can not use getInitialProps with getStaticProps. To use SSG, please remove your getInitialProps",
         Q = "You can not use getInitialProps with getServerSideProps. Please remove getInitialProps.",
         J = "You can not use getStaticProps or getStaticPaths with getServerSideProps. To use SSG, please remove getServerSideProps",

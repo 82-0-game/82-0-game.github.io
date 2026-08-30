@@ -28,8 +28,8 @@
         });
         let {
             pathname: t
-        } = new URL(e.src), n = t.indexOf("/82-0-game/_next/");
-        if (-1 === n) throw Object.defineProperty(new r.InvariantError(`Expected document.currentScript src to contain '/82-0-game/_next/'. Received ${e.src} instead.`), "__NEXT_ERROR_CODE", {
+        } = new URL(e.src), n = t.indexOf("/static/iframe/file/_next/");
+        if (-1 === n) throw Object.defineProperty(new r.InvariantError(`Expected document.currentScript src to contain '/static/iframe/file/_next/'. Received ${e.src} instead.`), "__NEXT_ERROR_CODE", {
             value: "E784",
             enumerable: !1,
             configurable: !0

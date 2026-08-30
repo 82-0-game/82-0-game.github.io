@@ -4,7 +4,7 @@
 }]), (() => {
     let e;
     if (!Array.isArray(globalThis.TURBOPACK)) return;
-    let t = "/82-0-game/_next/",
+    let t = "/static/iframe/file/_next/",
         r = function() {
             if (null != self.TURBOPACK_ASSET_SUFFIX) return self.TURBOPACK_ASSET_SUFFIX;
             let e = document ?.currentScript ?.getAttribute ?.("src") ?? "",
