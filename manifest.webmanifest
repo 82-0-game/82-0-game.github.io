@@ -1,0 +1,16 @@
+{
+  "name": "82-0 Game",
+  "short_name": "82-0 Game",
+  "description": "Play and understand the NBA perfect-season draft challenge.",
+  "lang": "en",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#faf8f2",
+  "theme_color": "#21163d",
+  "icons": [
+    {"src": "/images/brand/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "/images/brand/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"}
+  ]
+}

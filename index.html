@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#21163d">
+  <meta name="color-scheme" content="light">
+  <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+  <title>82-0 Game — Play, Draft NBA Legends & Chase a Perfect Season</title>
+  <meta name="description" content="Play the 82-0 game online. Draft an all-time NBA roster, compare Classic and HoopIQ, learn player stats and respins, and chase a perfect 82-win season.">
+  <link rel="canonical" href="https://82-0-game.github.io/">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/brand/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/brand/icon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/brand/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="82-0 Game">
+  <meta property="og:title" content="82-0 Game — Can Your NBA Draft Go Undefeated?">
+  <meta property="og:description" content="Play the NBA roster-building challenge. Compare draft choices, understand the five stat columns, and review the decisions behind your result.">
+  <meta property="og:url" content="https://82-0-game.github.io/">
+  <meta property="og:image" content="https://82-0-game.github.io/images/og/home.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="82-0 Game guide: 82-0 Game — Play, Draft NBA Legends &amp; Chase a Perfect Season">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="82-0 Game — Play the NBA Draft Challenge">
+  <meta name="twitter:description" content="Play 82-0, compare player cards, and understand the trade-offs in your NBA draft. Explore Classic, HoopIQ, and similar sports challenges.">
+  <meta name="twitter:image" content="https://82-0-game.github.io/images/og/home.png">
+  <style>
+    :root{--ink:#211a32;--muted:#625d6e;--paper:#faf8f2;--white:#fff;--line:#e9e4ef;--purple:#6942d8;--orange:#f36d2f;--lime:#d4ee65;--pink:#f8d9e9;--mint:#d9f2e9;--nav:#21163d;--radius:22px}
+    *,*::before,*::after{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:28px}body{margin:0;background:var(--paper);color:var(--ink);font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65;font-size:16px}body.nav-open,body.game-expanded{overflow:hidden}button,input{font:inherit}button,a{-webkit-tap-highlight-color:transparent}button{cursor:pointer}a{color:var(--purple);text-decoration-thickness:1px;text-underline-offset:4px}a:hover{color:#492699}button:focus-visible,a:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid #d47700;outline-offset:5px}img{display:block;max-width:100%;height:auto}h1,h2,h3,p,figure{margin:0}h1,h2,h3{line-height:1.14;letter-spacing:-.04em;text-wrap:balance}h1{font-size:clamp(38px,4.5vw,62px);font-weight:850}h2{font-size:clamp(27px,3vw,36px);font-weight:820}h3{font-size:23px;font-weight:780}p+p{margin-top:16px}p{max-width:74ch}ul,ol{padding-left:22px}li+li{margin-top:9px}small{font-size:13px}.icon{font-size:30px;line-height:1;display:inline-block;vertical-align:middle;flex-shrink:0}.section-title .icon{font-size:34px;margin-right:11px}.eyebrow{font-size:11px;font-weight:850;letter-spacing:.16em;text-transform:uppercase}.tag{display:inline-flex;gap:7px;align-items:center;font-size:12px;font-weight:750;padding:5px 10px;border-radius:8px;background:#f0ebfa}.quiet{color:var(--muted)}.shell{max-width:1264px;margin:0 auto;display:grid;grid-template-columns:226px minmax(0,1fr);gap:34px;padding:26px 22px 0}.sidebar{position:sticky;top:26px;height:calc(100dvh - 52px);max-height:960px;background:var(--nav);color:#fff;border-radius:26px;display:flex;flex-direction:column;align-self:start;overflow:auto;padding:28px 19px 20px;scrollbar-width:thin;scrollbar-color:#665886 transparent}.brand{display:flex;align-items:center;gap:12px;color:#fff;text-decoration:none;margin:0 8px 27px}.brand:hover{color:#fff}.brand-ball{font-size:39px;line-height:1;background:none;filter:none}.brand-name{display:block;font-size:24px;font-weight:900;letter-spacing:-.04em;line-height:1}.brand-note{display:block;font-size:10px;letter-spacing:.11em;color:#c8badf;margin-top:9px;text-transform:uppercase}.nav-caption{font-size:10px;letter-spacing:.16em;color:#b5a9ce;font-weight:800;margin:10px 12px 10px}.nav-links{display:flex;flex-direction:column;gap:5px}.nav-links>a,.nav-more>summary{display:flex;gap:12px;align-items:center;color:#e9e1f6;padding:11px 12px;border-radius:12px;font-weight:650;font-size:14px;text-decoration:none}.nav-links>a:hover,.nav-more>summary:hover{background:#33254f;color:#fff}.nav-links>a[aria-current="page"]{background:var(--lime);color:#231936}.nav-links .icon{font-size:28px;min-width:27px;text-align:center}.nav-more{margin-top:6px}.nav-more>summary{list-style:none;cursor:pointer}.nav-more>summary::-webkit-details-marker{display:none}.nav-more>summary::after{content:"+";margin-left:auto;font-size:20px;color:#d2c8e4}.nav-more[open]>summary::after{content:"−"}.more-links{display:flex;flex-direction:column;gap:3px;padding:5px 10px 8px 46px}.more-links>a{display:flex;align-items:center;gap:9px;font-size:13px;text-decoration:none;color:#ded3f3;padding:6px 0}.more-links .icon{font-size:25px;min-width:25px}.more-links>a:hover{color:#e4ff9d}.sidebar-bottom{margin-top:auto;padding-top:22px}.sidebar-target{border:1px solid #625278;border-radius:16px;padding:16px;margin:0 3px}.sidebar-target strong{display:block;font-size:36px;line-height:1;letter-spacing:-.07em;color:var(--lime)}.sidebar-target span{display:block;margin-top:8px;font-size:12px;color:#d3c8e6}.sidebar-target .mini-rule{height:4px;border-radius:9px;background:linear-gradient(90deg,var(--orange) 0 35%,var(--purple) 35% 67%,var(--lime) 67%);margin-top:16px}.sidebar-foot{font-size:10px;color:#a99bbf;margin:16px 12px 0}.main{min-width:0;padding-top:9px}.mobile-bar{display:none}.skip-link{position:fixed;z-index:100;top:8px;left:8px;background:#fff;padding:11px 18px;border-radius:9px;transform:translateY(-150%)}.skip-link:focus{transform:none}.nav-scrim{display:none}.intro{position:relative;padding:0 0 24px}.intro-kicker{display:flex;align-items:center;gap:8px;color:var(--purple);margin-bottom:13px}.intro-kicker::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--orange)}.intro h1 span{color:var(--purple)}.intro>p{font-size:17px;line-height:1.7;margin-top:14px;max-width:67ch;color:#514b5f}.intro-chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.intro-chips>span{display:inline-flex;align-items:center;justify-content:center;flex:1 1 145px;gap:6px;border:1px solid var(--line);background:#fff;border-radius:20px;padding:5px 12px;font-size:12px;font-weight:700}.intro-chips .icon{font-size:24px}.game-room{border-radius:var(--radius);overflow:hidden;border:1px solid #342743;background:#1b132b;box-shadow:0 12px 30px #2915390e;scroll-margin-top:18px}.room-head{color:#fff;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 19px}.room-title{display:flex;align-items:center;gap:10px;font-weight:750;font-size:15px}.room-title .icon{font-size:28px}.room-actions{display:flex;gap:7px;flex-wrap:wrap}.room-actions button{border:1px solid #5b4a72;background:#312343;color:#fff;border-radius:9px;font-size:12px;padding:7px 11px;font-weight:700}.room-actions button:hover{background:#473258}.game-stage{position:relative;aspect-ratio:16/9;width:100%;background:#100a1b;isolation:isolate}.game-stage iframe{position:absolute;inset:0;width:100%;height:100%;border:0;background:#151120}.game-poster{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;overflow:hidden}.game-poster[hidden]{display:none}.game-poster>img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#16101f;opacity:.58}.poster-shade{position:absolute;inset:0;background:linear-gradient(0deg,#140c26d9,transparent 80%)}.play-invite{position:relative;text-align:center;color:#fff;max-width:380px;padding:25px}.play-invite .eyebrow{color:#d3bdff}.play-invite strong{display:block;font-size:clamp(30px,4vw,48px);line-height:1.07;letter-spacing:-.05em;margin:10px 0 19px;font-weight:900}.play-invite p{font-size:13px;color:#e5ddef}.play-button{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:0;color:var(--ink);background:var(--orange);padding:13px 28px;border-radius:13px;font-size:17px;font-weight:800;box-shadow:0 5px 0 #943900;transition:transform .16s,box-shadow .16s}.play-button:hover{transform:translateY(-2px);box-shadow:0 7px 0 #943900}.play-button span{font-size:18px}.room-foot{background:#eee8f6;display:flex;gap:20px;justify-content:space-between;align-items:center;padding:12px 19px;font-size:12px;line-height:1.5}.room-foot p{margin:0;max-width:68ch}.room-foot a{white-space:nowrap;font-weight:700}.frame-status{font-size:12px;padding:7px 19px;color:#ddcfee;min-height:31px}.game-room:fullscreen,.game-room.is-expanded{display:flex;flex-direction:column;border:0;border-radius:0;background:#100a1b;width:100%;height:100%}.game-room.is-expanded{position:fixed;inset:0;z-index:90;width:100vw;height:100dvh}.game-room:fullscreen .game-stage,.game-room.is-expanded .game-stage{flex:1;min-height:0;aspect-ratio:auto}.game-room:fullscreen .room-foot,.game-room.is-expanded .room-foot{display:none}.game-room:fullscreen .frame-status,.game-room.is-expanded .frame-status{min-height:26px}.section{margin-top:55px}.section-heading{display:flex;align-items:end;justify-content:space-between;gap:22px;margin-bottom:23px}.section-heading>p{font-size:13px;line-height:1.5;max-width:30ch;text-align:right;color:var(--muted)}.section-title .eyebrow{display:block;color:var(--purple);margin-bottom:11px}.read-layout{display:grid;grid-template-columns:1.06fr 1fr;gap:20px}.overview-note{padding:28px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);position:relative;overflow:hidden}.overview-note::before{content:"";position:absolute;top:0;left:0;right:0;height:5px;background:linear-gradient(90deg,var(--orange) 0 33%,var(--purple) 33% 66%,#aacd36 66%)}.overview-note h3{font-size:28px;max-width:13ch;margin-bottom:17px}.overview-note p{font-size:15px}.overview-note .text-link{display:inline-block;margin-top:20px;font-size:14px;font-weight:750}.game-facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.fact{display:flex;flex-direction:column;padding:22px 18px;border-radius:19px;border:1px solid #ffffff70}.fact .icon{font-size:31px;margin-bottom:18px}.fact strong{font-size:29px;line-height:1.05;font-weight:850;letter-spacing:-.04em;margin-bottom:6px}.fact p{font-size:13px;line-height:1.5}.fact:nth-child(1){background:#ede5ff}.fact:nth-child(2){background:#ffe1ce}.fact:nth-child(3){background:#e2f0bb}.fact:nth-child(4){background:#f6dce9}.start-routes{display:flex;flex-wrap:wrap;gap:17px}.route-card{flex:1 1 230px;min-width:0;padding:26px;border:1px solid var(--line);background:#fff;border-radius:var(--radius);text-decoration:none;color:var(--ink);display:flex;flex-direction:column;position:relative;transition:transform .18s,border-color .18s}.route-card:hover{transform:translateY(-4px);border-color:#b2a0da;color:var(--ink)}.route-card .icon{font-size:36px;margin-bottom:25px}.route-card h3{margin-bottom:13px}.route-card p{font-size:14px;color:var(--muted);line-height:1.6}.route-card .route-link{margin-top:auto;padding-top:24px;font-size:13px;font-weight:800;color:var(--purple)}.route-card:nth-child(2){background:#f0eaff}.route-card:nth-child(3){background:#ecf5d8}.mode-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:19px}.mode-box{padding:29px;border-radius:var(--radius);display:flex;flex-direction:column}.mode-box.classic{background:#fce8d9;border:1px solid #f1cbb1}.mode-box.iq{background:#eae2fb;border:1px solid #d2c3f0}.mode-top{display:flex;align-items:center;gap:15px;margin-bottom:18px}.mode-top .icon{font-size:38px}.mode-top .eyebrow{margin-bottom:6px;color:#63537c}.mode-box p{font-size:15px}.mode-box .mode-verdict{font-size:13px;padding-top:18px;margin-top:auto}.mode-box a{display:inline-block;margin-top:19px;font-weight:800;font-size:13px}.draft-mosaic{display:grid;grid-template-columns:1.08fr 1fr;gap:20px;align-items:stretch}.draft-capture{border-radius:var(--radius);overflow:hidden;background:#231836;display:flex;flex-direction:column;min-width:0}.draft-capture img{width:100%;aspect-ratio:4/3;object-fit:contain;background:#1b1425;padding:14px}.draft-capture figcaption{margin-top:auto;color:#efe7ff;padding:20px 24px;font-size:13px;line-height:1.6}.draft-capture figcaption strong{display:block;color:var(--lime);font-size:15px;margin-bottom:5px}.decision-notes{display:grid;grid-template-rows:1fr 1fr;gap:16px}.decision-note{border-radius:19px;padding:25px;background:var(--mint)}.decision-note:last-child{background:#f5dce8}.decision-note h3{font-size:21px;margin-bottom:13px}.decision-note .icon{font-size:27px;margin-right:7px}.decision-note p{font-size:14px}.decision-note a{display:inline-block;margin-top:14px;font-weight:750;font-size:13px}.stat-table-wrap{border:1px solid var(--line);background:#fff;border-radius:var(--radius);overflow:auto}.stat-table{border-collapse:collapse;width:100%;font-size:14px;text-align:left}.stat-table caption{text-align:left;padding:23px 24px 18px;font-size:15px;font-weight:750;background:#fff}.stat-table th{background:#eae5f3;color:#4d3c68;padding:12px 22px;font-size:11px;letter-spacing:.05em;text-transform:uppercase}.stat-table td{padding:16px 22px;border-top:1px solid #ece8f3;vertical-align:top}.stat-table td:first-child{width:25%;white-space:nowrap;font-weight:750}.stat-table td:last-child{width:24%}.stat-table .icon{font-size:26px;margin-right:7px}.table-note{font-size:13px;color:var(--muted);margin-top:14px;padding:0 2px}.comparison-note{display:grid;grid-template-columns:1fr 1fr;gap:19px 25px;margin-top:20px;padding:26px;border-radius:20px;background:#eee7fb;border:1px solid #d9cbed}.comparison-note .eyebrow{color:var(--purple);display:block;margin-bottom:10px}.comparison-note h3{font-size:25px;margin-bottom:13px}.comparison-note p{font-size:14px}.comparison-note a{display:inline-block;margin-top:15px;font-size:13px;font-weight:800}.comparison-note .comparison-caption{grid-column:1/-1;font-size:12px;color:var(--muted);border-top:1px solid #d9cbed;padding-top:13px}.result-band{display:grid;grid-template-columns:1fr 1.06fr;gap:22px;background:#e6f2c8;border:1px solid #d3e1b2;border-radius:var(--radius);padding:29px}.result-copy h3{font-size:27px;margin-bottom:16px}.result-copy p{font-size:14px}.result-copy a{display:inline-block;margin-top:18px;font-weight:800;font-size:13px}.record-reader{min-width:0;background:#fff;border-radius:17px;padding:22px}.record-label{display:flex;justify-content:space-between;align-items:baseline;gap:12px;font-size:12px;font-weight:700}.record-number{font-size:34px;color:var(--purple);font-weight:900;letter-spacing:-.06em;line-height:1.1}.record-reader input{width:100%;accent-color:var(--purple);margin:22px 0 13px;min-height:24px;cursor:pointer}.record-strip{display:grid;grid-template-columns:repeat(41,minmax(0,1fr));gap:3px;margin-bottom:14px}.record-strip i{height:13px;background:var(--purple);border-radius:2px}.record-strip i.loss{background:#f09665}.strip-key{display:flex;justify-content:space-between;gap:10px;font-size:11px;color:var(--muted)}.strip-key span::before{content:"";display:inline-block;width:9px;height:9px;border-radius:2px;background:var(--purple);margin-right:5px}.strip-key span:last-child::before{background:#f09665}.record-reader p{font-size:12px;margin-top:16px;color:var(--muted)}.result-proof{margin-top:20px;display:flex;align-items:center;gap:20px;padding:18px;background:#fff;border:1px solid var(--line);border-radius:18px}.result-proof img{width:160px;aspect-ratio:16/10;object-fit:contain;background:#1c142c;border-radius:11px;flex-shrink:0}.result-proof figcaption{font-size:13px;max-width:66ch}.result-proof strong{font-size:15px;display:block;margin-bottom:5px}.sports-ledger{display:grid;grid-template-columns:1fr 1fr;gap:16px}.sport-brief{display:grid;grid-template-columns:45px minmax(0,1fr);gap:13px;padding:22px;background:#fff;border:1px solid var(--line);border-radius:19px}.sport-brief .icon{font-size:32px;padding-top:3px}.sport-brief h3{font-size:21px;margin-bottom:9px}.sport-brief p{font-size:13px;color:var(--muted)}.sport-brief a{display:inline-block;font-size:12px;font-weight:800;margin-top:13px}.sport-brief:nth-child(2){background:#edf1fc}.sport-brief:nth-child(3){background:#edf5e4}.sport-brief:nth-child(4){background:#fdf0df}.similar-row{display:flex;flex-wrap:wrap;gap:18px}.similar-card{flex:1 1 230px;min-width:0;display:flex;flex-direction:column;overflow:hidden;background:#fff;border:1px solid var(--line);border-radius:20px;text-decoration:none;color:var(--ink);transition:transform .18s,border-color .18s}.similar-card:hover{transform:translateY(-4px);color:var(--ink);border-color:#baa6e9}.similar-card img{width:100%;aspect-ratio:16/9;object-fit:contain;background:#20192d}.similar-card:nth-child(2) img{background:#101f33}.similar-card:nth-child(3) img{background:#102b25}.similar-body{display:flex;flex-direction:column;flex:1;padding:20px}.similar-body .eyebrow{color:var(--purple);font-size:10px;margin-bottom:8px}.similar-body h3{font-size:25px;margin-bottom:10px}.similar-body p{font-size:13px;color:var(--muted)}.similar-cta{padding-top:20px;margin-top:auto;font-size:12px;font-weight:850;color:var(--purple)}.faq-layout{display:grid;grid-template-columns:.67fr 1.4fr;gap:27px}.faq-intro h2{margin-bottom:18px}.faq-intro p{font-size:14px;color:var(--muted)}.faq-intro a{display:inline-block;font-size:13px;font-weight:800;margin-top:18px}.faq-stack{display:flex;flex-direction:column;gap:10px}.faq-stack details{border:1px solid var(--line);background:#fff;border-radius:15px;padding:0 20px}.faq-stack summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:20px;font-size:15px;font-weight:750;padding:18px 0;line-height:1.4}.faq-stack summary::-webkit-details-marker{display:none}.faq-stack summary::after{content:"+";color:var(--purple);font-size:25px;font-weight:500;line-height:1;margin-left:auto;flex-shrink:0}.faq-stack details[open] summary::after{content:"−"}.faq-stack details p{font-size:14px;color:var(--muted);padding:0 0 20px}.help-banner{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:25px 27px;background:#eae2f9;border:1px solid #d8caef;border-radius:20px;margin-top:45px}.help-banner h3{font-size:22px;margin-bottom:7px}.help-banner p{font-size:13px}.help-banner>a{flex-shrink:0;background:#fff;color:var(--purple);font-size:13px;font-weight:800;text-decoration:none;padding:11px 16px;border-radius:11px}.site-footer{border-top:1px solid #e3ddea;margin-top:46px;padding:27px 0 30px;display:flex;justify-content:space-between;gap:22px;font-size:12px;color:var(--muted)}.site-footer strong{display:block;font-size:15px;color:var(--ink);margin-bottom:5px}.footer-links{display:flex;flex-wrap:wrap;align-content:flex-start;gap:10px 18px;max-width:270px;justify-content:flex-end}.footer-links a{font-size:12px;color:var(--muted)}.back-top{display:block;color:var(--purple);font-size:12px;text-decoration:none;margin-top:12px;font-weight:750}
+    @media(min-width:1500px){.shell{gap:40px}}
+    @media(max-width:1090px){.shell{grid-template-columns:200px minmax(0,1fr);gap:23px;padding:20px 18px 0}.sidebar{top:20px;height:calc(100dvh - 40px);padding:25px 14px 18px}.sidebar-target{padding:13px}.read-layout{grid-template-columns:1fr}.game-facts{grid-template-columns:repeat(4,minmax(0,1fr))}.fact{padding:18px 13px}.fact strong{font-size:24px}.fact .icon{font-size:26px;margin-bottom:14px}.draft-mosaic{grid-template-columns:1fr 1fr}.draft-capture img{aspect-ratio:3/4}.stat-table th,.stat-table td{padding-left:16px;padding-right:16px}.faq-layout{grid-template-columns:1fr}.faq-intro p{max-width:62ch}.section-heading{align-items:start}.similar-card{flex-basis:180px}.route-card{flex-basis:180px}.route-card h3{font-size:22px}}
+    @media(max-width:820px){html{scroll-padding-top:84px}.shell{display:block;max-width:760px;padding:0 20px}.main{padding-top:96px}.mobile-bar{position:fixed;top:0;left:0;right:0;z-index:60;display:flex;align-items:center;justify-content:space-between;gap:12px;background:#21163df5;color:#fff;padding:13px 20px;min-height:70px;box-shadow:0 3px 20px #1d123015}.mobile-brand{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none;font-weight:850;font-size:22px;letter-spacing:-.04em}.mobile-brand:hover{color:#fff}.mobile-brand .brand-ball{font-size:30px}.menu-toggle{background:#35254f;border:1px solid #6e5c88;border-radius:10px;color:#fff;font-weight:750;padding:8px 12px;font-size:13px}.sidebar{position:fixed;z-index:80;top:0;left:0;width:min(310px,86vw);height:100dvh;max-height:none;border-radius:0 24px 24px 0;padding:30px 22px;transform:translateX(-110%);transition:transform .2s;visibility:hidden}.nav-open .sidebar{transform:translateX(0);visibility:visible}.nav-open .nav-scrim{display:block;position:fixed;inset:0;background:#160c2eb3;z-index:70;border:0;width:100%;height:100%}.sidebar .nav-links>a{font-size:15px;padding:12px}.intro>p{font-size:16px}.intro h1{font-size:clamp(39px,7vw,55px)}.section{margin-top:43px}.game-room{scroll-margin-top:85px}.start-routes .route-card{flex-basis:195px}.similar-row .similar-card{flex-basis:195px}.result-band{padding:24px}.section-heading>p{max-width:27ch}.mode-box{padding:25px}.help-banner{margin-top:35px}.site-footer{margin-top:35px}}
+    @media(max-width:600px){.shell{padding:0 15px}.main{padding-top:92px}.intro h1{font-size:42px}.intro-kicker{font-size:10px}.intro-chips{gap:7px}.intro-chips>span{font-size:11px;padding:5px 9px}.room-head{padding:11px 12px;gap:9px}.room-title{font-size:13px;gap:6px}.room-title .icon{font-size:24px}.room-actions button{padding:6px 8px;font-size:11px}.room-foot{display:block;padding:11px 13px}.room-foot a{display:inline-block;margin-top:8px}.frame-status{padding:7px 13px;font-size:11px}.play-invite{padding:15px}.play-invite strong{font-size:30px;margin:8px 0 14px}.play-invite p{font-size:11px}.play-invite .eyebrow{font-size:9px}.play-button{padding:10px 21px;font-size:15px;border-radius:10px}.game-facts{grid-template-columns:repeat(2,minmax(0,1fr))}.fact{padding:21px}.fact strong{font-size:28px}.fact .icon{font-size:30px}.overview-note{padding:26px}.section-heading{display:block}.section-heading>p{max-width:none;text-align:left;margin-top:12px}.section-title .icon{font-size:30px}.section-title h2{font-size:29px}.start-routes,.similar-row{gap:13px}.start-routes .route-card,.similar-row .similar-card{flex-basis:100%}.route-card .icon{margin-bottom:18px}.route-card{padding:24px}.mode-pair,.draft-mosaic,.sports-ledger,.result-band,.comparison-note{grid-template-columns:1fr}.mode-pair{gap:14px}.mode-box{padding:25px}.mode-box h3{font-size:25px}.draft-capture img{aspect-ratio:4/3;max-height:350px}.decision-notes{grid-template-rows:auto}.stat-table{min-width:530px}.stat-table caption{font-size:13px;padding:18px}.stat-table td:first-child{width:28%}.result-band{padding:22px;gap:22px}.result-proof{align-items:start;padding:15px;gap:14px}.result-proof img{width:105px}.result-proof figcaption{font-size:12px}.result-proof strong{font-size:14px}.sport-brief{padding:23px}.similar-body{padding:24px}.similar-card img{max-height:235px}.help-banner{display:block;padding:24px}.help-banner>a{display:inline-block;margin-top:18px}.site-footer{flex-direction:column;gap:17px}.footer-links{justify-content:flex-start;max-width:none}.record-strip{gap:2px}.record-strip i{height:11px}.faq-stack details{padding:0 17px}.faq-stack summary{font-size:14px}.game-room:fullscreen .room-head,.game-room.is-expanded .room-head{padding-top:max(10px,env(safe-area-inset-top))}.game-room:fullscreen .frame-status,.game-room.is-expanded .frame-status{padding-bottom:max(7px,env(safe-area-inset-bottom))}}
+    @media(pointer:coarse){.game-stage{aspect-ratio:3/4}.game-stage iframe{left:50%;right:auto;width:var(--touch-frame-width,100%);transform:translateX(-50%)}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+    @media print{.sidebar,.mobile-bar,.game-room,.help-banner,.back-top,.intro-chips{display:none}.shell{display:block;padding:0}.main{padding:0}.section{break-inside:avoid;margin-top:25px}.site-footer{margin-top:25px}body{background:#fff}.record-reader input{display:none}a{color:inherit}}
+  .room-actions button:disabled{opacity:.45;cursor:default}.play-button:disabled{opacity:.7;cursor:wait}
+/* Preserve complete captured controls and statistical columns. */
+main figure img[src^="/images/"]:not([src$="-portrait.png"]){object-fit:contain;height:auto;max-height:560px;background:#07101f}main figure img[src^="/images/similar-games/basketball-gm/"]{background:#f5f7fc}
+</style>
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://82-0-game.github.io/#website",
+      "url": "https://82-0-game.github.io/",
+      "name": "82-0 Game",
+      "inLanguage": "en",
+      "description": "An independent fan guide to the 82-0 NBA roster-building challenge."
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://82-0-game.github.io/#webpage",
+      "url": "https://82-0-game.github.io/",
+      "name": "82-0 Game — Play, Draft NBA Legends & Chase a Perfect Season",
+      "isPartOf": {
+        "@id": "https://82-0-game.github.io/#website"
+      },
+      "inLanguage": "en",
+      "description": "Play the 82-0 game online. Draft an all-time NBA roster, compare Classic and HoopIQ, learn player stats and respins, and chase a perfect 82-win season.",
+      "about": {
+        "@id": "https://82-0-game.github.io/#game"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://82-0-game.github.io/images/og/home.png",
+        "width": 1200,
+        "height": 630,
+        "caption": "82-0 Game guide: 82-0 Game — Play, Draft NBA Legends & Chase a Perfect Season"
+      },
+      "mainEntity": {
+        "@id": "https://82-0-game.github.io/#game"
+      },
+      "hasPart": {
+        "@id": "https://82-0-game.github.io/#faq"
+      }
+    },
+    {
+      "@type": "VideoGame",
+      "@id": "https://82-0-game.github.io/#game",
+      "name": "82-0",
+      "alternateName": [
+        "82-0 Game",
+        "NBA 82-0 Game"
+      ],
+      "genre": [
+        "Sports",
+        "Roster building"
+      ],
+      "gamePlatform": "Web browser",
+      "inLanguage": "en",
+      "description": "A basketball draft game in which five team-and-era selections produce an all-time roster and a projected 82-game record."
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://82-0-game.github.io/#faq",
+      "isPartOf": {
+        "@id": "https://82-0-game.github.io/#webpage"
+      },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Should I restart after an awkward first spin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Inspect the pool first, especially if the team is unfamiliar. If you restart before reading any cards, you miss the chance to discover a useful player from that franchise. Restart when you want a fresh run; use the first-pick guide when you want to assess the opening draw."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I compare Classic and HoopIQ attempts fairly?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Keep each mode in its own comparison: Classic and HoopIQ give you different information while drafting. Note whether you used either respin, too. Different spins can offer very different choices, so compare the starting conditions before treating a higher finish as evidence of better decisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the 0-82 reverse challenge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The aim flips: you try to build a roster that returns zero wins. Look for low production across all five counted categories; a weak scorer can still add rebounds or assists. Judge the attempt by the returned record, since a poor-looking lineup does not establish a winless result. The reverse-draft guide develops that approach."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to follow live NBA results to play?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Your record comes from the historical cards you draft, not from waiting for players to perform in upcoming fixtures. You can complete a roster and get its projection in the same session. Following basketball history helps with recognition, but you do not need to manage a live fantasy league."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I play the 82-0 game unblocked on any network?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. A network can allow this guide to load while blocking the game inside it. The access guide explains that distinction. If you can see the game controls but they stop responding, follow the loading and control checks instead."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7305083056611385" crossorigin="anonymous"></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="mobile-bar">
+    <a class="mobile-brand" href="/" aria-label="82-0 Game home"><span class="brand-ball" aria-hidden="true">🏀</span>82-0 Game</a>
+    <button class="menu-toggle" id="menuToggle" type="button" aria-controls="siteNav" aria-expanded="false">☰ Menu</button>
+  </div>
+  <button class="nav-scrim" id="navScrim" aria-label="Close navigation" type="button" tabindex="-1"></button>
+  <div class="shell">
+    <aside class="sidebar" id="siteNav" aria-label="Site navigation">
+      <a class="brand" href="/" aria-label="82-0 Game home"><span class="brand-ball" aria-hidden="true">🏀</span><span><span class="brand-name">82-0 Game</span><span class="brand-note">The perfect-season pursuit</span></span></a>
+      <p class="nav-caption">Your next great draft</p>
+      <nav class="nav-links" aria-label="Main">
+        <a href="/" aria-current="page"><span class="icon" aria-hidden="true">🏠</span>Home &amp; Play</a>
+        <a href="/how-to-play/"><span class="icon" aria-hidden="true">🎮</span>How to Play</a>
+        <a href="/draft/"><span class="icon" aria-hidden="true">🎰</span>The Draft</a>
+        <a href="/strategy/"><span class="icon" aria-hidden="true">🎯</span>Strategy</a>
+        <a href="/stats/"><span class="icon" aria-hidden="true">📊</span>Player Stats</a>
+        <a href="/players/"><span class="icon" aria-hidden="true">🌟</span>NBA Legends</a>
+        <a href="/similar-games/"><span class="icon" aria-hidden="true">🏟️</span>Similar Games</a>
+      </nav>
+      <details class="nav-more">
+        <summary><span class="icon" aria-hidden="true">🧭</span>More</summary>
+        <div class="more-links">
+          <a href="/classic-mode/"><span class="icon" aria-hidden="true">💯</span>Classic mode</a>
+          <a href="/hoop-iq/"><span class="icon" aria-hidden="true">🧠</span>HoopIQ</a>
+          <a href="/rules/"><span class="icon" aria-hidden="true">📋</span>Game rules</a>
+          <a href="/can-you-go-82-0/"><span class="icon" aria-hidden="true">🏆</span>Can you go 82-0?</a>
+          <a href="/0-82-challenge/"><span class="icon" aria-hidden="true">🔄</span>The 0-82 challenge</a>
+          <a href="/sport-versions/"><span class="icon" aria-hidden="true">🌍</span>Other sports</a>
+          <a href="/unblocked/"><span class="icon" aria-hidden="true">🔓</span>Unblocked guide</a>
+          <a href="/not-working/"><span class="icon" aria-hidden="true">🛠️</span>Game not working?</a>
+          <a href="/mobile/"><span class="icon" aria-hidden="true">📱</span>Mobile play</a>
+          <a href="/faq/"><span class="icon" aria-hidden="true">💬</span>FAQ</a>
+        </div>
+      </details>
+      <div class="sidebar-bottom">
+        <div class="sidebar-target"><strong>82—0</strong><span>A full season.<br>One undefeated target.</span><div class="mini-rule" aria-hidden="true"></div></div>
+        <p class="sidebar-foot">Built around basketball.<br>Read the cards. Enjoy the chase.</p>
+      </div>
+    </aside>
+    <main class="main" id="main">
+      <header class="intro">
+        <div class="intro-kicker eyebrow">NBA players. Five choices. Your draft.</div>
+        <h1>82-0 Game.<br><span>Can you go 82-0?</span></h1>
+        <p>Play the <strong>82-0 game</strong>: spin an NBA franchise and an era, choose a player, and complete a five-man roster. Then find out whether its projected record reaches 82 wins without a loss.</p>
+        <div class="intro-chips" aria-label="Game at a glance"><span><span class="icon" aria-hidden="true">🎰</span>Team + era spins</span><span><span class="icon" aria-hidden="true">🖐️</span>Five player picks</span><span><span class="icon" aria-hidden="true">🏆</span>One undefeated target</span></div>
+      </header>
+
+      <section data-nosnippet class="game-room" id="play" aria-label="Play the 82-0 NBA game">
+        <div class="room-head"><div class="room-title"><span class="icon" aria-hidden="true">🏀</span>82-0 · NBA draft challenge</div><div class="room-actions"><button type="button" id="reloadGame" data-reload-control disabled>↻ Reload</button><button type="button" id="fullscreenGame" aria-pressed="false">⛶ Fullscreen</button></div></div>
+        <div class="game-stage" id="gameStage">
+          
+          <div class="game-poster" id="gamePoster"><img src="/images/game/82-0-mode-selection.png" alt="82-0 game screen offering Classic and HoopIQ draft modes" width="1280" height="720" fetchpriority="high" decoding="async"><div class="poster-shade" aria-hidden="true"></div><div class="play-invite"><div class="eyebrow">NBA roster draft</div><strong>Five picks.<br>Make them count.</strong><button class="play-button" type="button" id="playGame" aria-controls="gameStage"><span aria-hidden="true">▶</span>Play 82-0</button><p style="margin-top:15px">Choose a mode inside the game.</p></div></div>
+        </div>
+        <div class="frame-status" id="frameStatus" role="status" aria-live="polite">Press Play to open the game.</div><noscript><p class="frame-status">Enable JavaScript to use Play. The guides below remain available.</p></noscript>
+        <div class="room-foot"><p><strong>First run?</strong> Start with Classic to see the numbers. Use Fullscreen when the player list needs more space. On a phone, keep your device upright.</p><a href="/how-to-play/">Learn the draft →</a></div>
+      </section>
+
+      <section class="section" aria-labelledby="what-is-82-0">
+        <div class="section-heading"><div class="section-title"><span class="eyebrow">Why the draft gets interesting</span><h2 id="what-is-82-0"><span class="icon" aria-hidden="true">🏀</span>What is the 82-0 game?</h2></div><p>A familiar name can start the debate. The card gives you something to compare.</p></div>
+        <div class="read-layout">
+          <article class="overview-note"><h3>Read the version in front of you.</h3><p>The <strong>NBA 82-0 game</strong> is a roster-building challenge based on historical player statistics. A famous name is only the starting point: the draft evaluates the production of that player's particular franchise-and-era card. Read the version before committing the pick.</p><p>Think of <a href="/players/lebron-james/">LeBron James</a> in Miami and in Los Angeles: the name is the same, but those are different parts of his career. In a draft built around teams and eras, that distinction matters before you even begin comparing numbers.</p><p>The choice gets interesting when the cards pull in different directions: one player scores more, another adds passing or rebounding. Decide what you are giving up when you choose. A shortlist is more useful than a plan that depends on the next spin delivering a particular star.</p><a class="text-link" href="/rules/">Check the draft rules →</a></article>
+          <div class="game-facts" aria-label="Four checks during a draft"><div class="fact"><span class="icon" aria-hidden="true">🔎</span><strong>The pool</strong><p>Clear an old search or position filter if the player list seems unexpectedly short.</p></div><div class="fact"><span class="icon" aria-hidden="true">⚖️</span><strong>The slot</strong><p>Check which roster slots are already filled before committing to the next selection.</p></div><div class="fact"><span class="icon" aria-hidden="true">🔀</span><strong>The skip</strong><p>A respin changes the offered pool; it does not let you request one named player.</p></div><div class="fact"><span class="icon" aria-hidden="true">📝</span><strong>The review</strong><p>Record the mode alongside the score when you save an attempt for comparison.</p></div></div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="start-here"><div class="section-heading"><div class="section-title"><span class="eyebrow">Pick the help you need</span><h2 id="start-here"><span class="icon" aria-hidden="true">🧭</span>Start here</h2></div><p>Go straight to the controls, a draft decision, or the number you need explained.</p></div><div class="start-routes"><a class="route-card" href="/how-to-play/"><span class="icon" aria-hidden="true">🎮</span><h3>Your first run</h3><p>Work through the interface in order: the first spin, player search, selection, and completed roster.</p><span class="route-link">Follow the walkthrough →</span></a><a class="route-card" href="/strategy/"><span class="icon" aria-hidden="true">🎯</span><h3>A difficult decision</h3><p>Find the guide for the draft stage you are in, from choosing an opening card to using a remaining skip.</p><span class="route-link">Browse decision guides →</span></a><a class="route-card" href="/stats/"><span class="icon" aria-hidden="true">📊</span><h3>An unfamiliar number</h3><p>Decode the stat abbreviations and the averages behind them, then return to your player comparison.</p><span class="route-link">Open the stat glossary →</span></a></div></section>
+
+      <section class="section" aria-labelledby="mode-choice"><div class="section-heading"><div class="section-title"><span class="eyebrow">Choose how you want to think</span><h2 id="mode-choice"><span class="icon" aria-hidden="true">🧠</span>Classic or HoopIQ?</h2></div><p>Would you rather compare the numbers or make the call from memory?</p></div><div class="mode-pair"><article class="mode-box classic"><div class="mode-top"><span class="icon" aria-hidden="true">💯</span><div><div class="eyebrow">The stat line is visible</div><h3>Classic</h3></div></div><p>Classic shows the stats on each player card. Use search and position filters to narrow a long list, then check the selected sort category before taking the first name as the best choice.</p><p class="mode-verdict"><strong>A quick exercise:</strong> sort by PPG, then inspect the RPG and APG of the leading candidates. Use the sort to build a shortlist; the separate card columns show where those candidates differ.</p><a href="/classic-mode/">Learn the Classic controls →</a></article><article class="mode-box iq"><div class="mode-top"><span class="icon" aria-hidden="true">🧠</span><div><div class="eyebrow">The stat line is hidden</div><h3>HoopIQ</h3></div></div><p>HoopIQ hides the card numbers while you make your selections. Think back to the drawn team's main scorer, rebounder, and passer. Those jobs may belong to different players, which is where knowing the squad helps more than recognizing one superstar.</p><p class="mode-verdict"><strong>Test your recall:</strong> name a second plausible option before committing. If you can only remember one star, pause and think about who else was doing the work on that team.</p><a href="/hoop-iq/">Get ready for a blind draft →</a></article></div></section>
+
+      <section class="section" aria-labelledby="draft-decisions"><div class="section-heading"><div class="section-title"><span class="eyebrow">Two different ways to change a draw</span><h2 id="draft-decisions"><span class="icon" aria-hidden="true">🎰</span>Which part of the spin would you keep?</h2></div></div><div class="draft-mosaic"><figure class="draft-capture"><img src="/images/game/82-0-classic-draft.png" alt="Classic draft board showing a team-and-era draw, player statistics, and roster slots in 82-0" width="960" height="720" loading="lazy" decoding="async"><figcaption><strong>Read TEAM and ERA separately.</strong>The counters show which basic respin remains available. Check them before planning to change a draw.</figcaption></figure><div class="decision-notes"><article class="decision-note"><h3><span class="icon" aria-hidden="true">🔀</span>Respin the team</h3><p>This keeps the era and changes the franchise. It suits a draw where you want to keep that period but have inspected this team's available list and found little worth selecting.</p><p>Before you press it, name the best card you are turning down. You are giving up that known option for a new team draw.</p><a href="/strategy/team-respin/">Review team-skip situations →</a></article><article class="decision-note"><h3><span class="icon" aria-hidden="true">⏳</span>Respin the era</h3><p>This keeps the franchise and changes the era. Consider it when the team's history offers several useful player pools, while its current draw leaves you choosing between weak options.</p><p>A franchise's one famous peak is a reason to be tempted, but the respin can land in another part of its history. Think about the other possible eras before spending it.</p><a href="/strategy/era-respin/">Review era-skip situations →</a></article></div></div></section>
+
+      <section class="section" aria-labelledby="numbers"><div class="section-heading"><div class="section-title"><span class="eyebrow">Know what each column counts</span><h2 id="numbers"><span class="icon" aria-hidden="true">📊</span>Read all five player stats</h2></div><p>Use the same column when comparing two players; each abbreviation counts a different contribution.</p></div><div class="stat-table-wrap" tabindex="0" role="region" aria-label="Scrollable player statistics table"><table class="stat-table"><caption>What the card numbers mean, and what to compare</caption><thead><tr><th scope="col">Card stat</th><th scope="col">A useful reading</th><th scope="col">Detailed guide</th></tr></thead><tbody><tr><td><span class="icon" aria-hidden="true">🔥</span>PPG · Points</td><td>Average points scored per game. PPG describes scoring volume; it does not tell you how efficiently those points were scored.</td><td><a href="/stats/points/">Compare scoring →</a></td></tr><tr><td><span class="icon" aria-hidden="true">👐</span>RPG · Rebounds</td><td>Average rebounds per game, including offensive and defensive boards. Use the number on the card rather than guessing from height or position.</td><td><a href="/stats/rebounds/">Assess rebounding →</a></td></tr><tr><td><span class="icon" aria-hidden="true">🤝</span>APG · Assists</td><td>Average credited assists per game. APG counts passes credited with setting up a basket, so it is narrower than every useful pass a player makes.</td><td><a href="/stats/assists/">Assess playmaking →</a></td></tr><tr><td><span class="icon" aria-hidden="true">⚡</span>SPG · Steals</td><td>Average steals per game. These are recorded takeaways; forcing a bad shot or denying a pass will not necessarily appear in this column.</td><td><a href="/stats/steals/">Interpret steals →</a></td></tr><tr><td><span class="icon" aria-hidden="true">🛡️</span>BPG · Blocks</td><td>Average blocked shots per game. Check BPG separately from SPG: a player who blocks shots is contributing a different recorded event from a player who gets steals.</td><td><a href="/stats/blocks/">Interpret blocks →</a></td></tr></tbody></table></div><p class="table-note">These values belong to the selected franchise and era, rather than a player's whole career or one standout season. Some defensive values from older eras may be estimated where historical records are incomplete. Read <a href="/stats/decade-averages/">how decade averages work</a> to understand the period represented by a card.</p>
+        <article class="comparison-note" aria-labelledby="compare-example"><div><span class="eyebrow">A short comparison exercise</span><h3 id="compare-example">When one card gains points and loses elsewhere.</h3><p>Suppose one option gives you <strong>3 more PPG</strong>, but <strong>2 fewer RPG and 2 fewer APG</strong>, with the same steals and blocks. You have found a trade-off, not an automatic upgrade.</p></div><div><p><strong>Write down both sides of the exchange.</strong> You gain scoring and give up rebounding and assists. Treating the five raw columns as an equally weighted total would conceal that choice; it is not the published season calculation.</p><p>A cleaner case is a card that is no lower in any counted category and higher in at least one. There is no statistical sacrifice between those two options. Mixed comparisons need more thought, which is why the biggest PPG number cannot resolve every draft.</p><a href="/strategy/compare-player-cards/">Practice comparing player cards →</a></div><p class="comparison-caption">The changes above are illustrative, not player data, card values, or hidden scoring weights.</p></article>
+      </section>
+
+      <section class="section" aria-labelledby="record"><div class="section-heading"><div class="section-title"><span class="eyebrow">Use the result without overreading it</span><h2 id="record"><span class="icon" aria-hidden="true">🏁</span>What can you learn from a near miss?</h2></div></div><div class="result-band"><div class="result-copy"><h3>81-1 tells you the outcome.<br>It doesn't tell you the fix.</h3><p>An 81-1 finish is one projected loss across the schedule. Start your review with the five-player roster: which selection had the weakest case when you made it, and which alternative did you reject? The game turns combined statistical output into wins through a nonlinear projection, so one extra PPG is not a fixed fraction of a win.</p><p>Choose one decision to examine rather than blaming the whole draft. For example, if you selected a scorer without comparing the other columns, note the alternative's gains and losses. That gives your next attempt a specific habit to improve, even when its spins are different.</p><a href="/close-results/">Review a close result →</a></div><div class="record-reader"><div class="record-label"><label for="winsRange">See how a record divides the schedule</label><output class="record-number" id="recordOutput" for="winsRange">73–9</output></div><input id="winsRange" type="range" min="0" max="82" value="73" step="1" aria-describedby="recordExplanation"><div class="record-strip" id="recordStrip" aria-hidden="true"></div><div class="strip-key"><span>Wins</span><span>Losses</span></div><p id="recordExplanation">73 wins + 9 losses = 82 games. This record reader illustrates the notation; it does not predict an in-game result.</p><noscript><p>73–9 means 73 wins and 9 losses. A perfect record is 82–0.</p></noscript></div></div><figure class="result-proof"><img src="/images/game/82-0-season-result.png" alt="82-0 end-of-draft screen displaying the projected season record and selected lineup" width="960" height="600" loading="lazy" decoding="async"><figcaption><strong>Keep the lineup with the result.</strong>A record screenshot by itself gives you little to review. Include the player cards and mode so you can return to the actual draft rather than a remembered version of it.</figcaption></figure></section>
+
+      <section class="section" aria-labelledby="other-sports"><div class="section-heading"><div class="section-title"><span class="eyebrow">Untangle the sports names</span><h2 id="other-sports"><span class="icon" aria-hidden="true">🌍</span>Football, hockey, soccer, or baseball?</h2></div><p>The season length and the roster both change when you switch sports.</p></div><div class="sports-ledger"><article class="sport-brief"><span class="icon" aria-hidden="true">🏈</span><div><h3>American football</h3><p>Looking for an <strong>82-0 game for football</strong>? The NFL target in 20-0 is a 20-win run: 17 regular-season wins and three playoff wins. That is a different objective from an NBA regular-season record.</p><a href="/similar-games/20-0/">Understand the NFL target →</a></div></article><article class="sport-brief"><span class="icon" aria-hidden="true">🏒</span><div><h3>Hockey</h3><p>The <strong>NHL 82-0 game</strong> uses six slots: center, left wing, right wing, two defensemen, and goalie. You still chase 82 wins, but you have a separate goaltending role to fill.</p><a href="/similar-games/82-0-hockey/">See the hockey lineup →</a></div></article><article class="sport-brief"><span class="icon" aria-hidden="true">⚽</span><div><h3>Soccer</h3><p>For association football, try 38-0 and its league-style challenge. An unbeaten record can include draws; a perfect 38-win campaign cannot.</p><a href="/similar-games/38-0/">See what perfection means in soccer →</a></div></article><article class="sport-brief"><span class="icon" aria-hidden="true">⚾</span><div><h3>Baseball</h3><p>Diamond Draft aims at 162-0 with nine lineup positions, a starting pitcher, and a closer. The draft asks you to assign the player to an open slot as well as choose the name, so pitching has its own place in the build.</p><a href="/similar-games/diamond-draft/">See the baseball roster →</a></div></article></div></section>
+
+      <section class="section" aria-labelledby="similar-games"><div class="section-heading"><div class="section-title"><span class="eyebrow">Choose a different drafting problem</span><h2 id="similar-games"><span class="icon" aria-hidden="true">🏟️</span>More Similar Games</h2></div><p>Choose the kind of roster you want to build next.</p></div><div class="similar-row"><a class="similar-card" href="/similar-games/20-0/"><img src="/images/similar/20-0-football.png" alt="20-0 football game showing the NFL roster draft interface" width="640" height="360" loading="lazy" decoding="async"><div class="similar-body"><span class="eyebrow">NFL · offense and defense</span><h3>20-0</h3><p>Build both sides of the ball: six offensive roles and six defensive roles toward the football game’s twenty-win target.</p><span class="similar-cta">Open the football game →</span></div></a><a class="similar-card" href="/similar-games/82-0-hockey/"><img src="/images/similar/82-0-hockey.png" alt="82-0 Hockey draft screen with NHL skater and goalie roster slots" width="640" height="360" loading="lazy" decoding="async"><div class="similar-body"><span class="eyebrow">NHL · skaters and goaltending</span><h3>82-0 Hockey</h3><p>Goaltending changes how you read the numbers: a higher save percentage and a lower goals-against average describe better results. Skaters have their own scoring columns.</p><span class="similar-cta">Open the hockey game →</span></div></a><a class="similar-card" href="/similar-games/38-0/"><img src="/images/similar/38-0-soccer.png" alt="38-0 soccer game showing an English top-flight XI formation and draft controls" width="640" height="360" loading="lazy" decoding="async"><div class="similar-body"><span class="eyebrow">Soccer · formation choices</span><h3>38-0</h3><p>A 4-4-2 and a back three leave different spaces to fill. Choose your formation, then draft an XI that fits it.</p><span class="similar-cta">Open the soccer game →</span></div></a></div></section>
+
+      <section class="section faq-layout" aria-labelledby="quick-answers"><div class="faq-intro"><div class="section-title"><span class="eyebrow">Questions beyond the basic rules</span><h2 id="quick-answers"><span class="icon" aria-hidden="true">💬</span>Before you try another run</h2></div><p>A few questions that come up once you have tried the draft.</p><a href="/faq/">Open the full FAQ →</a></div><div class="faq-stack"><details open><summary>Should I restart after an awkward first spin?</summary><p>Inspect the pool first, especially if the team is unfamiliar. If you restart before reading any cards, you miss the chance to discover a useful player from that franchise. Restart when you want a fresh run; use the <a href="/strategy/first-pick/">first-pick guide</a> when you want to assess the opening draw.</p></details><details><summary>Can I compare Classic and HoopIQ attempts fairly?</summary><p>Keep each mode in its own comparison: Classic and HoopIQ give you different information while drafting. Note whether you used either respin, too. Different spins can offer very different choices, so compare the starting conditions before treating a higher finish as evidence of better decisions.</p></details><details><summary>What is the 0-82 reverse challenge?</summary><p>The aim flips: you try to build a roster that returns zero wins. Look for low production across all five counted categories; a weak scorer can still add rebounds or assists. Judge the attempt by the returned record, since a poor-looking lineup does not establish a winless result. The <a href="/0-82-challenge/">reverse-draft guide</a> develops that approach.</p></details><details><summary>Do I need to follow live NBA results to play?</summary><p>No. Your record comes from the historical cards you draft, not from waiting for players to perform in upcoming fixtures. You can complete a roster and get its projection in the same session. Following basketball history helps with recognition, but you do not need to manage a live fantasy league.</p></details><details><summary>Can I play the 82-0 game unblocked on any network?</summary><p>No. A network can allow this guide to load while blocking the game inside it. The <a href="/unblocked/">access guide</a> explains that distinction. If you can see the game controls but they stop responding, follow the <a href="/not-working/">loading and control checks</a> instead.</p></details></div></section>
+
+      <aside class="help-banner" aria-label="Game help"><div><h3><span class="icon" aria-hidden="true">🛠️</span>82-0 game not working?</h3><p>If the game window stays blank, check your connection and whether JavaScript is enabled. If controls freeze after loading, try Reload; a draft in progress may restart.</p></div><a href="/not-working/">Find the right fix →</a></aside>
+      <footer class="site-footer"><div><strong>82-0 Game</strong><p>An independent basketball fan guide.<br>Draft, compare, and talk basketball.</p><a class="back-top" href="#top">↑ Back to top</a></div><nav class="footer-links" aria-label="Footer"><a href="/about/">About</a><a href="/rules/">Rules</a><a href="/faq/">FAQ</a><a href="/unblocked/">Unblocked</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></nav><span hidden aria-hidden="true"><!--LiveInternet counter--><a href="https://www.liveinternet.ru/click" target="_blank" rel="noopener"><img id="licntD879" width="0" height="0" style="border:0" title="LiveInternet" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7" alt=""></a><script>(function(d,s){d.getElementById("licntD879").src=
+"https://counter.yadro.ru/hit?t45.5;r"+escape(d.referrer)+
+((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+(s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+";h"+escape(d.title.substring(0,150))+";"+Math.random()})
+(document,screen)</script><!--/LiveInternet--></span></footer>
+    </main>
+  </div>
+  <script>
+    (() => {
+      'use strict';
+      const menu = document.getElementById('menuToggle');
+      const sidebar = document.getElementById('siteNav');
+      const scrim = document.getElementById('navScrim');
+      const mobileQuery = window.matchMedia('(max-width: 820px)');
+      function setMenu(open, restoreFocus = true) {
+        document.body.classList.toggle('nav-open', open);
+        menu.setAttribute('aria-expanded', String(open));
+        if (open) sidebar.querySelector('a').focus();
+        else if (restoreFocus && mobileQuery.matches) menu.focus();
+      }
+      menu.addEventListener('click', () => setMenu(!document.body.classList.contains('nav-open')));
+      scrim.addEventListener('click', () => setMenu(false));
+      sidebar.addEventListener('click', event => {
+        if (event.target.closest('a') && mobileQuery.matches) setMenu(false, false);
+      });
+      const handleViewport = () => {
+        if (!mobileQuery.matches) setMenu(false, false);
+      };
+      if (mobileQuery.addEventListener) mobileQuery.addEventListener('change', handleViewport);
+      else mobileQuery.addListener(handleViewport);
+      document.addEventListener('keydown', event => {
+        if (event.key === 'Escape') {
+          if (document.body.classList.contains('nav-open')) setMenu(false);
+          if (room.classList.contains('is-expanded')) closeExpanded();
+        }
+        if (event.key === 'Tab' && document.body.classList.contains('nav-open')) {
+          const focusable = [...sidebar.querySelectorAll('a, summary')].filter(el => el.getClientRects().length);
+          const first = focusable[0];
+          const last = focusable[focusable.length - 1];
+          if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+          else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+        }
+      });
+
+function makeClickPlayer(options) {
+  const {room, mount, poster, play, status, key, frameId, attributes} = options;
+  const initialLabel = play.textContent;
+  let frame = null;
+  let source = null;
+  let opening = false;
+  const reloadButtons = Array.from(room.querySelectorAll('[data-reload-control]'));
+  const setReload = enabled => reloadButtons.forEach(button => { button.disabled = !enabled; });
+  setReload(false);
+  async function start() {
+    if (opening || frame) return;
+    opening = true;
+    play.disabled = true;
+    play.textContent = 'Opening…';
+    mount.setAttribute('aria-busy', 'true');
+    status.textContent = 'Opening the game window…';
+    const controller = new AbortController();
+    const timeout = window.setTimeout(() => controller.abort(), 15000);
+    try {
+      const response = await fetch('/player-data/frames.json', {
+        credentials: 'omit', cache: 'no-cache', signal: controller.signal
+      });
+      if (!response.ok) throw new Error('Player settings unavailable');
+      const settings = await response.json();
+      const address = new URL(settings[key]);
+      if (address.protocol !== 'https:') throw new Error('Invalid game address');
+      source = address.href;
+      const candidate = document.createElement('iframe');
+      candidate.setAttribute('id', frameId);
+      Object.entries(attributes).forEach(([name, value]) => candidate.setAttribute(name, value));
+      candidate.setAttribute('loading', 'eager');
+      candidate.setAttribute('tabindex', '0');
+      candidate.addEventListener('load', () => {
+        if (frame !== candidate) return;
+        mount.removeAttribute('aria-busy');
+        status.textContent = 'Game window opened. If its controls are missing, use Reload or the help guide.';
+      });
+      candidate.addEventListener('error', () => {
+        mount.removeAttribute('aria-busy');
+        status.textContent = 'The game window could not open. Use Reload or the help guide.';
+      });
+      candidate.setAttribute('src', source);
+      mount.appendChild(candidate);
+      frame = candidate;
+      poster.hidden = true;
+      setReload(true);
+      status.textContent = 'The game is opening. Wait for its controls before making a selection.';
+      candidate.focus();
+    } catch (error) {
+      poster.hidden = false;
+      mount.removeAttribute('aria-busy');
+      play.textContent = initialLabel;
+      status.textContent = 'The game could not start. Check your connection, then press Play to try again.';
+      play.focus();
+    } finally {
+      window.clearTimeout(timeout);
+      opening = false;
+      play.disabled = false;
+    }
+  }
+  function reload() {
+    if (!frame || opening || !source) return;
+    mount.setAttribute('aria-busy', 'true');
+    frame.setAttribute('src', source);
+    status.textContent = 'Reopening the game. A draft in progress may restart.';
+    frame.focus();
+  }
+  play.addEventListener('click', start);
+  reloadButtons.forEach(button => button.addEventListener('click', reload));
+  return {get frame() {return frame;}};
+}
+
+      const room = document.getElementById('play');
+      const stage = document.getElementById('gameStage');
+      const touchQuery = window.matchMedia('(pointer: coarse)');
+      function fitTouchFrame() {
+        if (!touchQuery.matches) {
+          stage.style.removeProperty('--touch-frame-width');
+          return;
+        }
+        const bounds = stage.getBoundingClientRect();
+        if (bounds.width > 0 && bounds.height > 0) {
+          stage.style.setProperty('--touch-frame-width', `${Math.min(bounds.width, bounds.height * 0.75)}px`);
+        }
+      }
+      if (window.ResizeObserver) new window.ResizeObserver(fitTouchFrame).observe(stage);
+      window.addEventListener('resize', fitTouchFrame);
+      if (touchQuery.addEventListener) touchQuery.addEventListener('change', fitTouchFrame);
+      else touchQuery.addListener(fitTouchFrame);
+      fitTouchFrame();
+      const poster = document.getElementById('gamePoster');
+      const playButton = document.getElementById('playGame');
+      const fullscreen = document.getElementById('fullscreenGame');
+      const status = document.getElementById('frameStatus');
+      makeClickPlayer({room, mount: stage, poster, play: playButton, status, key: 'nba', frameId: 'gameFrame', attributes: {"title": "82-0 basketball roster-building game", "allow": "fullscreen; autoplay", "allowfullscreen": "", "sandbox": "allow-scripts allow-same-origin allow-forms allow-modals allow-downloads allow-pointer-lock", "referrerpolicy": "strict-origin-when-cross-origin"}});
+      function syncFullscreen() {
+        fitTouchFrame();
+        const expanded = document.fullscreenElement === room || document.webkitFullscreenElement === room || room.classList.contains('is-expanded');
+        fullscreen.textContent = expanded ? '⤡ Exit fullscreen' : '⛶ Fullscreen';
+        fullscreen.setAttribute('aria-pressed', String(expanded));
+      }
+      function closeExpanded() {
+        room.classList.remove('is-expanded');
+        document.body.classList.remove('game-expanded');
+        syncFullscreen();
+        fullscreen.focus();
+      }
+      fullscreen.addEventListener('click', async () => {
+        if (room.classList.contains('is-expanded')) { closeExpanded(); return; }
+        if (document.fullscreenElement || document.webkitFullscreenElement) {
+          try {
+            if (document.exitFullscreen) await document.exitFullscreen();
+            else if (document.webkitExitFullscreen) document.webkitExitFullscreen();
+          } catch (error) { status.textContent = 'Use your browser fullscreen control to return to the page.'; }
+          return;
+        }
+        try {
+          if (room.requestFullscreen) await room.requestFullscreen();
+          else if (room.webkitRequestFullscreen) room.webkitRequestFullscreen();
+          else throw new Error('Fullscreen is unavailable');
+        } catch (error) {
+          room.classList.add('is-expanded');
+          document.body.classList.add('game-expanded');
+          status.textContent = 'Expanded view. Use Exit fullscreen to return to the page.';
+        }
+        syncFullscreen();
+      });
+      document.addEventListener('fullscreenchange', syncFullscreen);
+      document.addEventListener('webkitfullscreenchange', syncFullscreen);
+      const wins = document.getElementById('winsRange');
+      const record = document.getElementById('recordOutput');
+      const strip = document.getElementById('recordStrip');
+      const explanation = document.getElementById('recordExplanation');
+      const cells = Array.from({ length: 82 }, () => {
+        const cell = document.createElement('i');
+        strip.appendChild(cell);
+        return cell;
+      });
+      function updateRecord() {
+        const won = Number(wins.value);
+        const lost = 82 - won;
+        record.textContent = `${won}–${lost}`;
+        wins.setAttribute('aria-valuetext', `${won} wins, ${lost} losses`);
+        cells.forEach((cell, index) => cell.classList.toggle('loss', index >= won));
+        explanation.textContent = `${won} wins + ${lost} losses = 82 games. This record reader illustrates the notation; it does not predict an in-game result.`;
+      }
+      wins.addEventListener('input', updateRecord);
+      updateRecord();
+    })();
+  </script>
+</body>
+</html>

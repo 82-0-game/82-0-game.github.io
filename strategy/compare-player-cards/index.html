@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#21163d"><meta name="color-scheme" content="light"><meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<title>82-0 Game Card Comparison — Dominance, Cost and Precision</title><meta name="description" content="Compare cards in the 82-0 game with an interactive five-stat lab. Separate dominance from tradeoffs, check legal placement, and interpret printed ties."><link rel="canonical" href="https://82-0-game.github.io/strategy/compare-player-cards/">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/brand/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="/images/brand/icon-192.png"><link rel="apple-touch-icon" sizes="180x180" href="/images/brand/apple-touch-icon.png"><link rel="manifest" href="/manifest.webmanifest">
+<meta property="og:type" content="article"><meta property="og:locale" content="en_US"><meta property="og:site_name" content="82-0 Game"><meta property="og:title" content="82-0 Game Card Comparison — Dominance, Cost and Precision"><meta property="og:description" content="Compare cards in the 82-0 game with an interactive five-stat lab. Separate dominance from tradeoffs, check legal placement, and interpret printed ties."><meta property="og:url" content="https://82-0-game.github.io/strategy/compare-player-cards/"><meta property="og:image" content="https://82-0-game.github.io/images/og/strategy-compare-player-cards.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="82-0 Game guide: 82-0 Game Card Comparison — Dominance, Cost and Precision"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="82-0 Game Card Comparison — Dominance, Cost and Precision"><meta name="twitter:description" content="Compare cards in the 82-0 game with an interactive five-stat lab. Separate dominance from tradeoffs, check legal placement, and interpret printed ties."><meta name="twitter:image" content="https://82-0-game.github.io/images/og/strategy-compare-player-cards.png">
+<style>
+:root{--ink:#211a32;--muted:#625d6e;--paper:#faf8f2;--line:#e9e4ef;--purple:#6942d8;--orange:#f36d2f;--lime:#d4ee65;--mint:#d9f2e9;--pink:#f8d9e9;--nav:#21163d}
+*,*::before,*::after{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:26px}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.7 ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}body.nav-open{overflow:hidden}a{color:var(--purple);text-underline-offset:4px;text-decoration-thickness:1px}a:hover{color:#492699}a,button,input,select,summary{-webkit-tap-highlight-color:transparent}button,input,select{font:inherit}button,summary{cursor:pointer}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible,[tabindex="0"]:focus-visible{outline:3px solid #bd6600;outline-offset:5px}h1,h2,h3,p,figure{margin:0}h1,h2,h3{line-height:1.15;letter-spacing:-.035em;text-wrap:balance}h1{font-size:clamp(36px,4.2vw,56px);font-weight:850;max-width:21ch}h2{font-size:clamp(26px,3vw,34px);margin-bottom:18px}h3{font-size:22px;margin-bottom:12px}p{max-width:75ch}p+p{margin-top:17px}ul,ol{padding-left:23px;margin-top:14px}li+li{margin-top:9px}img{display:block;max-width:100%;height:auto}svg{display:block;max-width:100%}.icon{font-size:32px;line-height:1;display:inline-block;vertical-align:middle;flex-shrink:0}h2 .icon{font-size:35px;margin-right:10px}h3 .icon{font-size:29px;margin-right:8px}.duel-kicker{font-size:11px;font-weight:850;letter-spacing:.13em;text-transform:uppercase}.shell{max-width:1264px;margin:0 auto;display:grid;grid-template-columns:226px minmax(0,1fr);gap:34px;padding:26px 22px 0}.main{min-width:0;padding-top:9px}.sidebar{position:sticky;top:26px;height:calc(100vh - 52px);height:calc(100dvh - 52px);max-height:960px;background:var(--nav);color:#fff;border-radius:26px;display:flex;flex-direction:column;align-self:start;overflow:auto;padding:28px 19px 20px;scrollbar-width:thin;scrollbar-color:#665886 transparent}.brand{display:flex;align-items:center;gap:12px;color:#fff;text-decoration:none;margin:0 8px 27px}.brand:hover{color:#fff}.brand-ball{font-size:39px;line-height:1;background:none}.brand-name{display:block;font-size:24px;font-weight:900;letter-spacing:-.04em;line-height:1}.brand-note{display:block;font-size:10px;letter-spacing:.11em;color:#c8badf;margin-top:9px;text-transform:uppercase}.nav-caption{font-size:10px;letter-spacing:.16em;color:#b5a9ce;font-weight:800;margin:10px 12px 10px}.nav-links{display:flex;flex-direction:column;gap:5px}.nav-links>a,.nav-more>summary{display:flex;gap:12px;align-items:center;color:#e9e1f6;padding:11px 12px;border-radius:12px;font-weight:650;font-size:14px;text-decoration:none}.nav-links>a:hover,.nav-more>summary:hover{background:#33254f;color:#fff}.nav-links>a[aria-current="page"],.more-links>a[aria-current="page"]{background:var(--lime);color:#231936}.nav-links>a.nav-context{background:#3b2b5a}.nav-links .icon{font-size:28px;min-width:27px;text-align:center}.nav-more{margin-top:6px}.nav-more>summary{list-style:none;cursor:pointer}.nav-more>summary::-webkit-details-marker{display:none}.nav-more>summary::after{content:"+";margin-left:auto;font-size:22px}.nav-more[open]>summary::after{content:"−"}.more-links{display:flex;flex-direction:column;gap:3px;padding:5px 10px 8px 46px}.more-links>a{display:flex;align-items:center;gap:9px;font-size:13px;text-decoration:none;color:#ded3f3;padding:6px 0;border-radius:7px}.more-links .icon{font-size:25px;min-width:25px}.more-links>a:hover{color:#e4ff9d}.sidebar-bottom{margin-top:auto;padding-top:22px}.sidebar-target{border:1px solid #625278;border-radius:16px;padding:16px;margin:0 3px}.sidebar-target strong{display:block;font-size:36px;line-height:1;letter-spacing:-.07em;color:var(--lime)}.sidebar-target span{display:block;margin-top:8px;font-size:12px;color:#d3c8e6}.mini-rule{height:4px;border-radius:9px;background:linear-gradient(90deg,var(--orange) 0 35%,var(--purple) 35% 67%,var(--lime) 67%);margin-top:16px}.sidebar-foot{font-size:10px;color:#a99bbf;margin:16px 12px 0}.mobile-bar{display:none}.nav-scrim{display:none}.skip-link{position:fixed;z-index:100;top:8px;left:8px;background:#fff;padding:11px 18px;border-radius:9px;transform:translateY(-150%)}.skip-link:focus{transform:none}.duel-trail{display:flex;flex-wrap:wrap;gap:8px 12px;font-size:12px;color:var(--muted);margin-bottom:23px}.duel-mast{padding-bottom:28px;border-bottom:1px solid var(--line);margin-bottom:30px}.duel-mast .duel-kicker{color:var(--purple);margin-bottom:13px}.duel-mast>p{margin-top:17px;font-size:17px;line-height:1.7;color:#514b5f;max-width:68ch}.main>section,.main>article,.main>figure{margin-top:35px}.main table{border-collapse:collapse;width:100%;font-size:14px;text-align:left}.main th{font-size:12px;background:#ece5f8;color:#44305d;font-weight:800}.main td,.main th{padding:14px 17px;border-bottom:1px solid var(--line);vertical-align:top}.main caption{text-align:left;font-weight:750;padding:0 0 16px}.main figcaption{font-size:13px;line-height:1.6;margin-top:13px;color:var(--muted)}.main details>summary{font-weight:750;line-height:1.4;padding:16px 0}.main details>p{font-size:14px;padding-bottom:18px}.main label{cursor:pointer}.main select{padding:10px 12px;border-radius:10px;border:1px solid #bcacd5;background:#fff;color:var(--ink);max-width:100%}.main button{border:0;border-radius:10px;background:var(--purple);color:#fff;padding:10px 15px;font-size:14px;font-weight:750}.main input[type="checkbox"],.main input[type="radio"]{accent-color:var(--purple);width:19px;height:19px;vertical-align:middle;margin-right:9px}.main :where(.diagram-caption){font-size:12px;color:var(--muted);margin-top:14px}.duel-replay{margin:40px 0 0;padding:25px;background:#21163d;color:#fff;border-radius:20px;display:flex;align-items:center;justify-content:space-between;gap:20px}.duel-replay p{font-size:14px;color:#e3d7f3;max-width:55ch}.duel-replay a{display:inline-block;color:#231936;background:var(--lime);border-radius:10px;text-decoration:none;padding:11px 16px;font-weight:800;font-size:13px;white-space:nowrap}.site-footer{border-top:1px solid var(--line);margin-top:38px;padding:25px 0 30px;display:flex;justify-content:space-between;gap:22px;font-size:12px;color:var(--muted)}.site-footer strong{display:block;font-size:15px;color:var(--ink);margin-bottom:5px}.footer-links{display:flex;flex-wrap:wrap;gap:10px 18px;max-width:270px;justify-content:flex-end;align-content:flex-start}.footer-links a{font-size:12px;color:var(--muted)}.back-top{display:inline-block;margin-top:12px;font-weight:750;font-size:12px}
+@media(max-width:1090px){.shell{grid-template-columns:202px minmax(0,1fr);gap:24px;padding-left:18px;padding-right:18px}.sidebar{padding-left:14px;padding-right:14px}.brand{gap:10px}.brand-name{font-size:22px}}
+@media(max-width:820px){html{scroll-padding-top:92px}.shell{display:block;max-width:840px;padding:0 24px}.main{padding-top:103px}.mobile-bar{display:flex;align-items:center;justify-content:space-between;position:fixed;inset:0 0 auto;z-index:70;background:#21163df5;padding:15px 24px;gap:15px;color:#fff}.mobile-brand{display:flex;gap:11px;align-items:center;color:#fff;text-decoration:none;font-size:23px;font-weight:850}.mobile-brand:hover{color:#fff}.mobile-brand .brand-ball{font-size:32px}.menu-toggle{background:#d4ee65;color:#21163d;padding:8px 13px;border:0;border-radius:10px;font-size:13px;font-weight:800}.sidebar{position:fixed;left:16px;top:88px;bottom:16px;z-index:85;width:270px;height:auto;max-height:none;transform:translateX(-310px);transition:transform .2s;visibility:hidden}.nav-open .sidebar{transform:none;visibility:visible}.nav-scrim{position:fixed;inset:0;background:#110c2966;border:0;width:100%;height:100%;z-index:80}.nav-open .nav-scrim{display:block}.duel-mast{margin-bottom:26px}}
+@media(max-width:600px){.shell{padding:0 15px}.main{padding-top:96px}.mobile-bar{padding-left:18px;padding-right:18px}h1{font-size:39px}h2{font-size:28px}h3{font-size:21px}.duel-mast>p{font-size:16px}.main td,.main th{padding:12px}.duel-replay{display:block;padding:23px}.duel-replay a{margin-top:17px}.site-footer{flex-direction:column}.footer-links{justify-content:flex-start;max-width:none}.main>section,.main>article,.main>figure{margin-top:29px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+@media print{.sidebar,.mobile-bar,.duel-replay,.back-top,.nav-scrim{display:none}.shell{display:block;padding:0}.main{padding:0}.main>section{break-inside:avoid}body{background:#fff}a{color:inherit}}
+
+h1{font-size:clamp(32px,3.8vw,50px);line-height:1.12;max-width:25ch}h2{font-size:clamp(24px,2.6vw,31px);line-height:1.22;letter-spacing:-.025em}h3{line-height:1.3;letter-spacing:-.02em}.duel-mast{padding-bottom:23px;margin-bottom:27px}.duel-mast>p{max-width:66ch}.duel-article{min-width:0}.duel-article :where(section,article,aside,figure,div,li){min-width:0}.duel-article :where(h2,h3,p,figcaption,li,dt,dd,a){overflow-wrap:break-word}.main td,.main th{word-break:normal;hyphens:none}.main table{font-variant-numeric:tabular-nums}.main figcaption{font-size:14px}.main [role="region"]{overscroll-behavior-x:contain;scrollbar-width:thin}.main [role="region"]:focus-visible{outline:3px solid #6942d8;outline-offset:4px}.duel-article :where(label,summary){min-height:44px}.main input[type="checkbox"],.main input[type="radio"]{flex-shrink:0}.duel-article label:has(input:focus-visible){outline:3px solid #6942d8;outline-offset:3px}.duel-article label:has(input:checked){box-shadow:inset 0 0 0 2px #6942d8}.main button{min-height:44px}.duel-replay a{white-space:normal;text-align:center;flex-shrink:0}.duel-article .diagram-caption{max-width:78ch}.site-footer{padding-bottom:40px}
+
+.duel-symbol{font-size:35px;line-height:1.15;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:9px}.duel-replay a{white-space:normal}.duel-article>*+*{margin-top:35px}.duel-article>:first-child{margin-top:0}.duel-article :where(dl,div,section,article,aside,figure,li){min-width:0}
+@media(max-width:600px){.duel-article>*+*{margin-top:29px}}
+
+.duel-article>section,.duel-article>article,.duel-article>figure{margin-top:35px}.duel-article>:first-child{margin-top:0}@media(max-width:600px){.duel-article>section,.duel-article>article,.duel-article>figure{margin-top:29px}}
+.duel-bench{background:#21163d;border-radius:25px;padding:28px;color:#fff}.duel-bench>header{display:flex;gap:17px;align-items:flex-start;margin-bottom:20px}.duel-label{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--lime);font-weight:850}.duel-bench h2{margin:8px 0 0}.duel-bench p{color:#e6ddf1}.duel-table{overflow:auto;margin-top:23px}.duel-table table{min-width:490px}.duel-table th{background:#3c2b57;color:#fff}.duel-table th,.duel-table td{border-color:#554268}.duel-console{margin-top:23px}.duel-console label{display:flex;flex-wrap:wrap;align-items:center;gap:13px;font-weight:750}.duel-deltas{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0}.duel-deltas span{flex:1 1 95px;display:block;padding:16px;background:#3b2d55;border-radius:13px;font-size:12px;color:#d8c9ec}.duel-deltas strong{font-size:26px;display:block;color:var(--lime);margin-top:3px}.duel-bench output{display:block;padding:17px;border-radius:14px;background:#514064;font-weight:750}.duel-bench .duel-note{font-size:13px;margin-top:16px;color:#cfc1e0}.duel-reading{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin-top:29px}.duel-reading article{padding:25px;border-radius:22px;background:var(--mint)}.duel-reading article+article{background:var(--pink)}.duel-formula{display:inline-block;background:#fff;border-radius:12px;font-size:26px;font-weight:900;padding:9px 16px;margin-bottom:20px}.duel-reading h2{font-size:26px}.duel-gates ol{padding-left:28px;display:grid;gap:20px}.duel-gates li{padding-left:5px}.duel-gates li::marker{color:var(--purple);font-weight:900}.duel-gates li p{margin-top:8px}.duel-observation{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:24px;align-items:center}.duel-observation img{border-radius:15px;border:1px solid var(--line)}.duel-observation figcaption{margin:0}.duel-precision{border-left:6px solid #d0b7f0;padding-left:24px}.duel-ticket{border-radius:21px;background:#fff0df;padding:27px}.duel-ticket blockquote{margin:20px 0;border-left:4px solid var(--orange);background:#fff;border-radius:0 12px 12px 0;padding:18px}.duel-ticket blockquote p{font-weight:750}@media(max-width:1100px){.duel-reading,.duel-observation{grid-template-columns:minmax(0,1fr)}.duel-observation img{max-width:340px}}@media(max-width:560px){.duel-bench,.duel-ticket{padding:20px}.duel-reading article{padding:21px}}
+
+/* Preserve complete captured controls and statistical columns. */
+main figure img[src^="/images/"]:not([src$="-portrait.png"]){object-fit:contain;height:auto;max-height:560px;background:#07101f}main figure img[src^="/images/similar-games/basketball-gm/"]{background:#f5f7fc}
+</style><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://82-0-game.github.io/#website",
+      "url": "https://82-0-game.github.io/",
+      "name": "82-0 Game",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://82-0-game.github.io/strategy/compare-player-cards/#webpage",
+      "url": "https://82-0-game.github.io/strategy/compare-player-cards/",
+      "name": "82-0 Game Card Comparison — Dominance, Cost and Precision",
+      "description": "Compare cards in the 82-0 game with an interactive five-stat lab. Separate dominance from tradeoffs, check legal placement, and interpret printed ties.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://82-0-game.github.io/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://82-0-game.github.io/strategy/compare-player-cards/#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://82-0-game.github.io/strategy/compare-player-cards/#article"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://82-0-game.github.io/images/og/strategy-compare-player-cards.png",
+        "width": 1200,
+        "height": 630,
+        "caption": "82-0 Game guide: 82-0 Game Card Comparison — Dominance, Cost and Precision"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://82-0-game.github.io/strategy/compare-player-cards/#article",
+      "headline": "Compare 82-0 Cards: Find the Sacrifice",
+      "description": "Compare cards in the 82-0 game with an interactive five-stat lab. Separate dominance from tradeoffs, check legal placement, and interpret printed ties.",
+      "inLanguage": "en",
+      "mainEntityOfPage": {
+        "@id": "https://82-0-game.github.io/strategy/compare-player-cards/#webpage"
+      },
+      "image": [
+        "https://82-0-game.github.io/images/strategy/82-0-five-stat-card-comparison.png"
+      ],
+      "articleSection": "Strategy",
+      "about": {
+        "@id": "https://82-0-game.github.io/#game"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://82-0-game.github.io/strategy/compare-player-cards/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://82-0-game.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Strategy",
+          "item": "https://82-0-game.github.io/strategy/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Compare Cards",
+          "item": "https://82-0-game.github.io/strategy/compare-player-cards/"
+        }
+      ]
+    }
+  ]
+}</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7305083056611385" crossorigin="anonymous"></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="mobile-bar">
+    <a class="mobile-brand" href="/" aria-label="82-0 Game home"><span class="brand-ball" aria-hidden="true">🏀</span>82-0 Game</a>
+    <button class="menu-toggle" id="menuToggle" type="button" aria-controls="siteNav" aria-expanded="false">☰ Menu</button>
+  </div>
+  <button class="nav-scrim" id="navScrim" aria-label="Close navigation" type="button" tabindex="-1"></button>
+  <div class="shell">
+    <aside class="sidebar" id="siteNav" aria-label="Site navigation">
+      <a class="brand" href="/" aria-label="82-0 Game home"><span class="brand-ball" aria-hidden="true">🏀</span><span><span class="brand-name">82-0 Game</span><span class="brand-note">The perfect-season pursuit</span></span></a>
+      <p class="nav-caption">Your next great draft</p>
+      <nav class="nav-links" aria-label="Main">
+        <a href="/"><span class="icon" aria-hidden="true">🏠</span>Home &amp; Play</a>
+        <a href="/how-to-play/"><span class="icon" aria-hidden="true">🎮</span>How to Play</a>
+        <a href="/draft/"><span class="icon" aria-hidden="true">🎰</span>The Draft</a>
+        <a href="/strategy/" class="nav-context"><span class="icon" aria-hidden="true">🎯</span>Strategy</a>
+        <a href="/stats/"><span class="icon" aria-hidden="true">📊</span>Player Stats</a>
+        <a href="/players/"><span class="icon" aria-hidden="true">🌟</span>NBA Legends</a>
+        <a href="/similar-games/"><span class="icon" aria-hidden="true">🏟️</span>Similar Games</a>
+      </nav>
+      <details class="nav-more">
+        <summary><span class="icon" aria-hidden="true">🧭</span>More</summary>
+        <div class="more-links">
+          <a href="/classic-mode/"><span class="icon" aria-hidden="true">💯</span>Classic mode</a>
+          <a href="/hoop-iq/"><span class="icon" aria-hidden="true">🧠</span>HoopIQ</a>
+          <a href="/rules/"><span class="icon" aria-hidden="true">📋</span>Game rules</a>
+          <a href="/can-you-go-82-0/"><span class="icon" aria-hidden="true">🏆</span>Can you go 82-0?</a>
+          <a href="/0-82-challenge/"><span class="icon" aria-hidden="true">🔄</span>The 0-82 challenge</a>
+          <a href="/sport-versions/"><span class="icon" aria-hidden="true">🌍</span>Other sports</a>
+          <a href="/unblocked/"><span class="icon" aria-hidden="true">🔓</span>Unblocked guide</a>
+          <a href="/not-working/"><span class="icon" aria-hidden="true">🛠️</span>Game not working?</a>
+          <a href="/mobile/"><span class="icon" aria-hidden="true">📱</span>Mobile play</a>
+          <a href="/faq/"><span class="icon" aria-hidden="true">💬</span>FAQ</a>
+        </div>
+      </details>
+      <div class="sidebar-bottom">
+        <div class="sidebar-target"><strong>82—0</strong><span>A full season.<br>One undefeated target.</span><div class="mini-rule" aria-hidden="true"></div></div>
+        <p class="sidebar-foot">Built around basketball.<br>Read the cards. Enjoy the chase.</p>
+      </div>
+    </aside>
+<main class="main card-comparison-lab" id="main"><nav class="duel-trail" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">›</span><a href="/strategy/">Strategy</a><span aria-hidden="true">›</span><span aria-current="page">Compare Cards</span></nav><header class="duel-mast"><div class="duel-kicker">Strategy · Card laboratory</div><h1>Compare 82-0 Cards: Find the Sacrifice</h1><p>A useful comparison in the 82-0 game tells you what improves, what stays equal and what you give up. Try the practice pairs, then bring the pattern back to your actual board.</p></header>
+<div class="duel-article" data-page-content><section class="duel-bench" aria-labelledby="duel-bench"><header><span class="duel-symbol" aria-hidden="true">🔬</span><div><span class="duel-label">Start with the numbers</span><h2 id="duel-bench">Find out whether there is a sacrifice</h2></div></header><p>Pick a pair below. These invented cards have identical assumed eligibility, and their listed values are exact within the exercise. You can compare their five contributions without choosing a secret weighting formula.</p><div class="duel-table" role="region" tabindex="0" aria-label="Scrollable practice card comparison matrix"><table><caption>Illustrative per-game values; no real player is represented</caption><thead><tr><th scope="col">Card</th><th scope="col">PPG</th><th scope="col">RPG</th><th scope="col">APG</th><th scope="col">SPG</th><th scope="col">BPG</th></tr></thead><tbody><tr><th scope="row">A</th><td>24</td><td>7</td><td>6</td><td>1.6</td><td>0.9</td></tr><tr><th scope="row">B</th><td>22</td><td>7</td><td>5</td><td>1.4</td><td>0.9</td></tr><tr><th scope="row">C</th><td>28</td><td>5</td><td>4</td><td>1.2</td><td>1.3</td></tr></tbody></table></div><div class="duel-console"><label for="comparePair">Choose the pair<select id="comparePair"><option value="AB">A compared with B</option><option value="AC">A compared with C</option><option value="BC">B compared with C</option></select></label><div class="duel-deltas" aria-label="First card minus second card"><span>PPG<strong data-compare-delta>+2</strong></span><span>RPG<strong data-compare-delta>0</strong></span><span>APG<strong data-compare-delta>+1</strong></span><span>SPG<strong data-compare-delta>+0.2</strong></span><span>BPG<strong data-compare-delta>0</strong></span></div></div><output id="compareVerdict" aria-live="polite">A is higher in three columns and equal in two. B has no statistical lead in this pair.</output><p class="duel-note">Every difference keeps its own unit. A negative result is a contribution you give up by choosing the first card; zero is a tie in this exercise.</p></section>
+<div class="duel-reading"><article class="duel-clean" aria-labelledby="duel-clean"><span class="duel-formula" aria-hidden="true">A ≥ B</span><h2 id="duel-clean">No category sacrifice in the example</h2><p>A has more points, assists and steals than B, with the same rebounds and blocks. B does not compensate for those losses with a lead elsewhere. If you need either card for the same slot, that is a much cleaner statistical comparison than “this player feels better.”</p><p>This pattern is called dominance: one option is at least as high in every compared field and higher in at least one. Here it applies to exact practice numbers. On a real card, the same reading establishes dominance of the displayed line, at the precision shown.</p></article><article class="duel-mixed" aria-labelledby="duel-mixed"><span class="duel-formula" aria-hidden="true">A ↔ C</span><h2 id="duel-mixed">A real exchange needs a reason</h2><p>C adds four points and 0.4 blocks over A. A adds two rebounds, two assists and 0.4 steals over C. Both have a case, and the table cannot erase the conflict by counting how many columns each wins.</p><p>“Three wins two” is not a category weighting rule. Neither is adding +2 RPG to +0.4 SPG as though they shared a unit. State which contribution you are accepting and which you are surrendering; that is already a useful decision.</p></article></div>
+<section class="duel-gates" aria-labelledby="duel-gates"><h2 id="duel-gates"><span class="duel-symbol" aria-hidden="true">🚪</span>Run the placement test before the verdict</h2><ol><li><strong>Both fit the same usable slot.</strong><p>You can compare them as replacements while leaving the other placements alone. This is the situation isolated by the laboratory.</p></li><li><strong>Only one fits the present gap.</strong><p>The other needs a permitted board move before it becomes an alternative. Check that move; do not count an unusable card as a sacrifice you chose to avoid.</p></li><li><strong>Each requires a different arrangement.</strong><p>Compare the two complete placement plans. A gain in the candidate's numbers may come with a loss of room for the next pick. The comparison now includes a board decision as well as the stat line.</p></li></ol><p>The <a href="/strategy/final-pick/">final-pick audit</a> explains how an existing jersey can sometimes free a different slot. The laboratory assumes eligibility only to make the numerical pattern easier to see.</p></section>
+<figure class="duel-observation"><img src="/images/strategy/82-0-five-stat-card-comparison.png" alt="Two selectable 82-0 Classic player entries with PPG RPG APG SPG and BPG visible for comparison" width="960" height="640" loading="lazy" decoding="async"><figcaption>Compare the dealt entries, including positions and context. The exercise's A, B and C values are not assigned to the players in this screenshot.</figcaption></figure>
+<section class="duel-precision" aria-labelledby="duel-precision"><h2 id="duel-precision"><span class="duel-symbol" aria-hidden="true">🔎</span>A printed tie is not a hidden decimal</h2><p>Suppose both cards display 1.2 in a decimal field. Your observation is a tie at that precision. Do not break it by inventing another digit or claiming one player's reputation proves a higher underlying value.</p><p>The game's team summary sums supplied values before formatting them. When those supplied values carry extra precision, adding the printed fields can differ from the formatted team total. A “no lower displayed value” comparison is a sound description of what you saw; an exact claim about every hidden input goes further. See <a href="/stats/decade-averages/">the rounding example</a> for the arithmetic.</p><p>Card identity matters too. A remembered career line and a current team-and-era entry are not interchangeable observations. Compare what is offered now, rather than building one player's case from a peak and the other's from a broader average.</p></section>
+<section class="duel-ticket" aria-labelledby="duel-ticket"><h2 id="duel-ticket"><span class="duel-symbol" aria-hidden="true">✍️</span>Keep the rejected alternative in your note</h2><blockquote><p>“A over C: keeping the rebound and assist contributions, accepting fewer points and blocks.”</p></blockquote><p>That note tells you what happened even after the result arrives. “A was better” loses the comparison. You can review the actual choice without assigning a made-up number of wins to each difference.</p><p>Classic in the 82-0 game supplies the visible fields needed for this test. Hidden values in <a href="/hoop-iq/">HoopIQ</a> require a different kind of judgment: a remembered profile, with uncertainty attached. For the later conversion to wins, use <a href="/stats/season-projection/">the projection reader</a>; this lab deliberately stops at comparing contributions.</p></section>
+</div><div class="duel-replay"><p>Use the comparison pattern on two real legal alternatives from your next draw.</p><a href="/#play">Play on the homepage →</a></div><footer class="site-footer"><div><strong>82-0 Game</strong><p>Independent guides for basketball drafts.</p><a class="back-top" href="#top">↑ Back to top</a></div><nav class="footer-links" aria-label="Footer"><a href="/about/">About</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/faq/">FAQ</a></nav><span hidden aria-hidden="true"><!--LiveInternet counter--><a href="https://www.liveinternet.ru/click" target="_blank" rel="noopener"><img id="licntD879" width="0" height="0" style="border:0" title="LiveInternet" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7" alt=""></a><script>(function(d,s){d.getElementById("licntD879").src=
+"https://counter.yadro.ru/hit?t45.5;r"+escape(d.referrer)+
+((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+(s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+";h"+escape(d.title.substring(0,150))+";"+Math.random()})
+(document,screen)</script><!--/LiveInternet--></span></footer></main></div>
+<script>(()=>{'use strict';
+      const menu = document.getElementById('menuToggle');
+      const sidebar = document.getElementById('siteNav');
+      const scrim = document.getElementById('navScrim');
+      const pageMain = document.getElementById('main');
+      const mobileQuery = window.matchMedia('(max-width: 820px)');
+      function setMenu(open, restoreFocus = true) {
+        open = Boolean(open && mobileQuery.matches);
+        document.body.classList.toggle('nav-open', open);
+        pageMain.inert = open;
+        if (open) {
+          pageMain.setAttribute('aria-hidden', 'true');
+          sidebar.setAttribute('role', 'dialog');
+          sidebar.setAttribute('aria-modal', 'true');
+        } else {
+          pageMain.removeAttribute('aria-hidden');
+          sidebar.removeAttribute('role');
+          sidebar.removeAttribute('aria-modal');
+        }
+        menu.setAttribute('aria-expanded', String(open));
+        if (open) sidebar.querySelector('a').focus();
+        else if (restoreFocus && mobileQuery.matches) menu.focus();
+      }
+      menu.addEventListener('click', () => setMenu(!document.body.classList.contains('nav-open')));
+      scrim.addEventListener('click', () => setMenu(false));
+      sidebar.addEventListener('click', event => {
+        if (event.target.closest('a') && mobileQuery.matches) setMenu(false, false);
+      });
+      const handleViewport = () => {
+        if (!mobileQuery.matches) setMenu(false, false);
+      };
+      if (mobileQuery.addEventListener) mobileQuery.addEventListener('change', handleViewport);
+      else mobileQuery.addListener(handleViewport);
+      document.addEventListener('keydown', event => {
+        if (event.key === 'Escape') {
+          if (document.body.classList.contains('nav-open')) setMenu(false);
+        }
+        if (event.key === 'Tab' && document.body.classList.contains('nav-open')) {
+          const focusable = [...sidebar.querySelectorAll('a, summary')].filter(el => el.getClientRects().length);
+          const first = focusable[0];
+          const last = focusable[focusable.length - 1];
+          if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+          else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+        }
+      });
+
+const compareCards = {A:[24,7,6,1.6,0.9],B:[22,7,5,1.4,0.9],C:[28,5,4,1.2,1.3]};
+const comparePair = document.getElementById('comparePair');
+const compareCells = document.querySelectorAll('[data-compare-delta]');
+const compareVerdict = document.getElementById('compareVerdict');
+function comparePractice(){
+ const [first,second]=comparePair.value.split('');
+ const differences=compareCards[first].map((v,i)=>Math.round((v-compareCards[second][i])*100)/100);
+ differences.forEach((v,i)=>{compareCells[i].textContent=(v>0?'+':'')+v;});
+ const higher=differences.filter(v=>v>0).length, lower=differences.filter(v=>v<0).length, equal=5-higher-lower;
+ compareVerdict.textContent=lower===0?`${first} is higher in ${higher} columns and equal in ${equal}. ${second} has no statistical lead in this pair.`:`${first} leads in ${higher} columns; ${second} leads in ${lower}; ${equal} are equal. This is a tradeoff, not numerical dominance.`;
+}
+comparePair.addEventListener('change',comparePractice);
+comparePractice();
+
+})();</script></body></html>
