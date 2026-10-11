@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#21163d"><meta name="color-scheme" content="light"><meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<title>82-0 Game Steals — Credit, Decimals and the Hidden Sequence</title><meta name="description" content="Read SPG in the 82-0 game through steal-credit cases and two equal-average samples. Keep decimal differences intact and separate takeaways from overall defense."><link rel="canonical" href="https://82-0-game.github.io/stats/steals/">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/brand/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="/images/brand/icon-192.png"><link rel="apple-touch-icon" sizes="180x180" href="/images/brand/apple-touch-icon.png"><link rel="manifest" href="/manifest.webmanifest">
+<meta property="og:type" content="article"><meta property="og:locale" content="en_US"><meta property="og:site_name" content="82-0 Game"><meta property="og:title" content="82-0 Game Steals — Credit, Decimals and the Hidden Sequence"><meta property="og:description" content="Read SPG in the 82-0 game through steal-credit cases and two equal-average samples. Keep decimal differences intact and separate takeaways from overall defense."><meta property="og:url" content="https://82-0-game.github.io/stats/steals/"><meta property="og:image" content="https://82-0-game.github.io/images/og/stats-steals.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="82-0 Game guide: 82-0 Game Steals — Credit, Decimals and the Hidden Sequence"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="82-0 Game Steals — Credit, Decimals and the Hidden Sequence"><meta name="twitter:description" content="Read SPG in the 82-0 game through steal-credit cases and two equal-average samples. Keep decimal differences intact and separate takeaways from overall defense."><meta name="twitter:image" content="https://82-0-game.github.io/images/og/stats-steals.png">
+<style>
+:root{--ink:#211a32;--muted:#625d6e;--paper:#faf8f2;--line:#e9e4ef;--purple:#6942d8;--orange:#f36d2f;--lime:#d4ee65;--mint:#d9f2e9;--pink:#f8d9e9;--nav:#21163d}
+*,*::before,*::after{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:26px}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.7 ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}body.nav-open{overflow:hidden}a{color:var(--purple);text-underline-offset:4px;text-decoration-thickness:1px}a:hover{color:#492699}a,button,input,select,summary{-webkit-tap-highlight-color:transparent}button,input,select{font:inherit}button,summary{cursor:pointer}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible,[tabindex="0"]:focus-visible{outline:3px solid #bd6600;outline-offset:5px}h1,h2,h3,p,figure{margin:0}h1,h2,h3{line-height:1.15;letter-spacing:-.035em;text-wrap:balance}h1{font-size:clamp(36px,4.2vw,56px);font-weight:850;max-width:21ch}h2{font-size:clamp(26px,3vw,34px);margin-bottom:18px}h3{font-size:22px;margin-bottom:12px}p{max-width:75ch}p+p{margin-top:17px}ul,ol{padding-left:23px;margin-top:14px}li+li{margin-top:9px}img{display:block;max-width:100%;height:auto}svg{display:block;max-width:100%}.icon{font-size:32px;line-height:1;display:inline-block;vertical-align:middle;flex-shrink:0}h2 .icon{font-size:35px;margin-right:10px}h3 .icon{font-size:29px;margin-right:8px}.swipe-kicker{font-size:11px;font-weight:850;letter-spacing:.13em;text-transform:uppercase}.shell{max-width:1264px;margin:0 auto;display:grid;grid-template-columns:226px minmax(0,1fr);gap:34px;padding:26px 22px 0}.main{min-width:0;padding-top:9px}.sidebar{position:sticky;top:26px;height:calc(100vh - 52px);height:calc(100dvh - 52px);max-height:960px;background:var(--nav);color:#fff;border-radius:26px;display:flex;flex-direction:column;align-self:start;overflow:auto;padding:28px 19px 20px;scrollbar-width:thin;scrollbar-color:#665886 transparent}.brand{display:flex;align-items:center;gap:12px;color:#fff;text-decoration:none;margin:0 8px 27px}.brand:hover{color:#fff}.brand-ball{font-size:39px;line-height:1;background:none}.brand-name{display:block;font-size:24px;font-weight:900;letter-spacing:-.04em;line-height:1}.brand-note{display:block;font-size:10px;letter-spacing:.11em;color:#c8badf;margin-top:9px;text-transform:uppercase}.nav-caption{font-size:10px;letter-spacing:.16em;color:#b5a9ce;font-weight:800;margin:10px 12px 10px}.nav-links{display:flex;flex-direction:column;gap:5px}.nav-links>a,.nav-more>summary{display:flex;gap:12px;align-items:center;color:#e9e1f6;padding:11px 12px;border-radius:12px;font-weight:650;font-size:14px;text-decoration:none}.nav-links>a:hover,.nav-more>summary:hover{background:#33254f;color:#fff}.nav-links>a[aria-current="page"],.more-links>a[aria-current="page"]{background:var(--lime);color:#231936}.nav-links>a.nav-context{background:#3b2b5a}.nav-links .icon{font-size:28px;min-width:27px;text-align:center}.nav-more{margin-top:6px}.nav-more>summary{list-style:none;cursor:pointer}.nav-more>summary::-webkit-details-marker{display:none}.nav-more>summary::after{content:"+";margin-left:auto;font-size:22px}.nav-more[open]>summary::after{content:"−"}.more-links{display:flex;flex-direction:column;gap:3px;padding:5px 10px 8px 46px}.more-links>a{display:flex;align-items:center;gap:9px;font-size:13px;text-decoration:none;color:#ded3f3;padding:6px 0;border-radius:7px}.more-links .icon{font-size:25px;min-width:25px}.more-links>a:hover{color:#e4ff9d}.sidebar-bottom{margin-top:auto;padding-top:22px}.sidebar-target{border:1px solid #625278;border-radius:16px;padding:16px;margin:0 3px}.sidebar-target strong{display:block;font-size:36px;line-height:1;letter-spacing:-.07em;color:var(--lime)}.sidebar-target span{display:block;margin-top:8px;font-size:12px;color:#d3c8e6}.mini-rule{height:4px;border-radius:9px;background:linear-gradient(90deg,var(--orange) 0 35%,var(--purple) 35% 67%,var(--lime) 67%);margin-top:16px}.sidebar-foot{font-size:10px;color:#a99bbf;margin:16px 12px 0}.mobile-bar{display:none}.nav-scrim{display:none}.skip-link{position:fixed;z-index:100;top:8px;left:8px;background:#fff;padding:11px 18px;border-radius:9px;transform:translateY(-150%)}.skip-link:focus{transform:none}.swipe-trail{display:flex;flex-wrap:wrap;gap:8px 12px;font-size:12px;color:var(--muted);margin-bottom:23px}.swipe-mast{padding-bottom:28px;border-bottom:1px solid var(--line);margin-bottom:30px}.swipe-mast .swipe-kicker{color:var(--purple);margin-bottom:13px}.swipe-mast>p{margin-top:17px;font-size:17px;line-height:1.7;color:#514b5f;max-width:68ch}.main>section,.main>article,.main>figure{margin-top:35px}.main table{border-collapse:collapse;width:100%;font-size:14px;text-align:left}.main th{font-size:12px;background:#ece5f8;color:#44305d;font-weight:800}.main td,.main th{padding:14px 17px;border-bottom:1px solid var(--line);vertical-align:top}.main caption{text-align:left;font-weight:750;padding:0 0 16px}.main figcaption{font-size:13px;line-height:1.6;margin-top:13px;color:var(--muted)}.main details>summary{font-weight:750;line-height:1.4;padding:16px 0}.main details>p{font-size:14px;padding-bottom:18px}.main label{cursor:pointer}.main select{padding:10px 12px;border-radius:10px;border:1px solid #bcacd5;background:#fff;color:var(--ink);max-width:100%}.main button{border:0;border-radius:10px;background:var(--purple);color:#fff;padding:10px 15px;font-size:14px;font-weight:750}.main input[type="checkbox"],.main input[type="radio"]{accent-color:var(--purple);width:19px;height:19px;vertical-align:middle;margin-right:9px}.main :where(.diagram-caption){font-size:12px;color:var(--muted);margin-top:14px}.swipe-replay{margin:40px 0 0;padding:25px;background:#21163d;color:#fff;border-radius:20px;display:flex;align-items:center;justify-content:space-between;gap:20px}.swipe-replay p{font-size:14px;color:#e3d7f3;max-width:55ch}.swipe-replay a{display:inline-block;color:#231936;background:var(--lime);border-radius:10px;text-decoration:none;padding:11px 16px;font-weight:800;font-size:13px;white-space:nowrap}.site-footer{border-top:1px solid var(--line);margin-top:38px;padding:25px 0 30px;display:flex;justify-content:space-between;gap:22px;font-size:12px;color:var(--muted)}.site-footer strong{display:block;font-size:15px;color:var(--ink);margin-bottom:5px}.footer-links{display:flex;flex-wrap:wrap;gap:10px 18px;max-width:270px;justify-content:flex-end;align-content:flex-start}.footer-links a{font-size:12px;color:var(--muted)}.back-top{display:inline-block;margin-top:12px;font-weight:750;font-size:12px}
+@media(max-width:1090px){.shell{grid-template-columns:202px minmax(0,1fr);gap:24px;padding-left:18px;padding-right:18px}.sidebar{padding-left:14px;padding-right:14px}.brand{gap:10px}.brand-name{font-size:22px}}
+@media(max-width:820px){html{scroll-padding-top:92px}.shell{display:block;max-width:840px;padding:0 24px}.main{padding-top:103px}.mobile-bar{display:flex;align-items:center;justify-content:space-between;position:fixed;inset:0 0 auto;z-index:70;background:#21163df5;padding:15px 24px;gap:15px;color:#fff}.mobile-brand{display:flex;gap:11px;align-items:center;color:#fff;text-decoration:none;font-size:23px;font-weight:850}.mobile-brand:hover{color:#fff}.mobile-brand .brand-ball{font-size:32px}.menu-toggle{background:#d4ee65;color:#21163d;padding:8px 13px;border:0;border-radius:10px;font-size:13px;font-weight:800}.sidebar{position:fixed;left:16px;top:88px;bottom:16px;z-index:85;width:270px;height:auto;max-height:none;transform:translateX(-310px);transition:transform .2s;visibility:hidden}.nav-open .sidebar{transform:none;visibility:visible}.nav-scrim{position:fixed;inset:0;background:#110c2966;border:0;width:100%;height:100%;z-index:80}.nav-open .nav-scrim{display:block}.swipe-mast{margin-bottom:26px}}
+@media(max-width:600px){.shell{padding:0 15px}.main{padding-top:96px}.mobile-bar{padding-left:18px;padding-right:18px}h1{font-size:39px}h2{font-size:28px}h3{font-size:21px}.swipe-mast>p{font-size:16px}.main td,.main th{padding:12px}.swipe-replay{display:block;padding:23px}.swipe-replay a{margin-top:17px}.site-footer{flex-direction:column}.footer-links{justify-content:flex-start;max-width:none}.main>section,.main>article,.main>figure{margin-top:29px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+@media print{.sidebar,.mobile-bar,.swipe-replay,.back-top,.nav-scrim{display:none}.shell{display:block;padding:0}.main{padding:0}.main>section{break-inside:avoid}body{background:#fff}a{color:inherit}}
+
+h1{font-size:clamp(32px,3.8vw,50px);line-height:1.12;max-width:25ch}h2{font-size:clamp(24px,2.6vw,31px);line-height:1.22;letter-spacing:-.025em}h3{line-height:1.3;letter-spacing:-.02em}.swipe-mast{padding-bottom:23px;margin-bottom:27px}.swipe-mast>p{max-width:66ch}.swipe-article{min-width:0}.swipe-article :where(section,article,aside,figure,div,li){min-width:0}.swipe-article :where(h2,h3,p,figcaption,li,dt,dd,a){overflow-wrap:break-word}.main td,.main th{word-break:normal;hyphens:none}.main table{font-variant-numeric:tabular-nums}.main figcaption{font-size:14px}.main [role="region"]{overscroll-behavior-x:contain;scrollbar-width:thin}.main [role="region"]:focus-visible{outline:3px solid #6942d8;outline-offset:4px}.swipe-article :where(label,summary){min-height:44px}.main input[type="checkbox"],.main input[type="radio"]{flex-shrink:0}.swipe-article label:has(input:focus-visible){outline:3px solid #6942d8;outline-offset:3px}.swipe-article label:has(input:checked){box-shadow:inset 0 0 0 2px #6942d8}.main button{min-height:44px}.swipe-replay a{white-space:normal;text-align:center;flex-shrink:0}.swipe-article .diagram-caption{max-width:78ch}.site-footer{padding-bottom:40px}
+
+.swipe-symbol{font-size:35px;line-height:1.15;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:9px}.swipe-replay a{white-space:normal}.swipe-article>*+*{margin-top:35px}.swipe-article>:first-child{margin-top:0}.swipe-article :where(dl,div,section,article,aside,figure,li){min-width:0}
+@media(max-width:600px){.swipe-article>*+*{margin-top:29px}}
+
+.swipe-article>section,.swipe-article>article,.swipe-article>figure{margin-top:35px}.swipe-article>:first-child{margin-top:0}@media(max-width:600px){.swipe-article>section,.swipe-article>article,.swipe-article>figure{margin-top:29px}}
+.swipe-cases{border-top:5px solid #f36d2f;padding-top:24px}.swipe-cases details{border:1px solid #decee9;background:#fff;border-radius:17px;margin-top:16px;padding:0 23px}.swipe-cases details[open]{background:#f7e7ef}.swipe-cases details>summary{padding:21px 0;font-size:17px}.swipe-cases details>p{padding-bottom:22px}.swipe-sequence{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:27px}.swipe-margin{background:#d9f2e9;border-radius:24px;padding:28px;align-self:start}.swipe-margin strong{display:block;font-size:70px;line-height:1.1;letter-spacing:-.07em}.swipe-margin>span{display:block;font-size:14px;font-weight:750;margin-top:17px}.swipe-margin>.swipe-symbol{font-size:42px;margin-top:25px}.swipe-scroll{overflow:auto;border-radius:15px;border:1px solid var(--line);margin:20px 0}.swipe-scroll table{min-width:365px;background:#fff}.swipe-scroll td{font-variant-numeric:tabular-nums}.swipe-scroll tbody tr:nth-child(4) td:first-of-type,.swipe-scroll tbody tr:nth-child(8) td:first-of-type{background:#ffd9bf;font-weight:850}.swipe-scroll tbody tr:nth-last-child(-n+2){background:#ede6f9}.swipe-precision{display:grid;grid-template-columns:minmax(0,325px) minmax(0,1fr);gap:25px;align-items:start}.swipe-precision figure{background:#fff;padding:14px;border:1px solid var(--line);border-radius:19px}.swipe-precision img{border-radius:10px}.swipe-boundary{padding:28px;background:#21163d;color:#fff;border-radius:26px}.swipe-boundary a{color:#d4ee65}@media(max-width:1100px){.swipe-sequence,.swipe-precision{grid-template-columns:minmax(0,1fr)}.swipe-margin{max-width:330px}.swipe-precision figure{max-width:325px}}@media(max-width:600px){.swipe-cases details{padding:0 19px}.swipe-boundary{padding:23px}}
+
+/* Preserve complete captured controls and statistical columns. */
+main figure img[src^="/images/"]:not([src$="-portrait.png"]){object-fit:contain;height:auto;max-height:560px;background:#07101f}main figure img[src^="/images/similar-games/basketball-gm/"]{background:#f5f7fc}
+</style><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://82-0-game.github.io/#website",
+      "url": "https://82-0-game.github.io/",
+      "name": "82-0 Game",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://82-0-game.github.io/stats/steals/#webpage",
+      "url": "https://82-0-game.github.io/stats/steals/",
+      "name": "82-0 Game Steals — Credit, Decimals and the Hidden Sequence",
+      "description": "Read SPG in the 82-0 game through steal-credit cases and two equal-average samples. Keep decimal differences intact and separate takeaways from overall defense.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://82-0-game.github.io/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://82-0-game.github.io/stats/steals/#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://82-0-game.github.io/stats/steals/#article"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://82-0-game.github.io/images/og/stats-steals.png",
+        "width": 1200,
+        "height": 630,
+        "caption": "82-0 Game guide: 82-0 Game Steals — Credit, Decimals and the Hidden Sequence"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://82-0-game.github.io/stats/steals/#article",
+      "headline": "Steals Per Game: Follow the Credit",
+      "description": "Read SPG in the 82-0 game through steal-credit cases and two equal-average samples. Keep decimal differences intact and separate takeaways from overall defense.",
+      "inLanguage": "en",
+      "mainEntityOfPage": {
+        "@id": "https://82-0-game.github.io/stats/steals/#webpage"
+      },
+      "image": [
+        "https://82-0-game.github.io/images/stats/82-0-steals-decimal-values.png"
+      ],
+      "articleSection": "Stats",
+      "about": {
+        "@id": "https://82-0-game.github.io/#game"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://82-0-game.github.io/stats/steals/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://82-0-game.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Statistics",
+          "item": "https://82-0-game.github.io/stats/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Steals Per Game",
+          "item": "https://82-0-game.github.io/stats/steals/"
+        }
+      ]
+    }
+  ]
+}</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7305083056611385" crossorigin="anonymous"></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="mobile-bar">
+    <a class="mobile-brand" href="/" aria-label="82-0 Game home"><span class="brand-ball" aria-hidden="true">🏀</span>82-0 Game</a>
+    <button class="menu-toggle" id="menuToggle" type="button" aria-controls="siteNav" aria-expanded="false">☰ Menu</button>
+  </div>
+  <button class="nav-scrim" id="navScrim" aria-label="Close navigation" type="button" tabindex="-1"></button>
+  <div class="shell">
+    <aside class="sidebar" id="siteNav" aria-label="Site navigation">
+      <a class="brand" href="/" aria-label="82-0 Game home"><span class="brand-ball" aria-hidden="true">🏀</span><span><span class="brand-name">82-0 Game</span><span class="brand-note">The perfect-season pursuit</span></span></a>
+      <p class="nav-caption">Your next great draft</p>
+      <nav class="nav-links" aria-label="Main">
+        <a href="/"><span class="icon" aria-hidden="true">🏠</span>Home &amp; Play</a>
+        <a href="/how-to-play/"><span class="icon" aria-hidden="true">🎮</span>How to Play</a>
+        <a href="/draft/"><span class="icon" aria-hidden="true">🎰</span>The Draft</a>
+        <a href="/strategy/"><span class="icon" aria-hidden="true">🎯</span>Strategy</a>
+        <a href="/stats/" class="nav-context"><span class="icon" aria-hidden="true">📊</span>Player Stats</a>
+        <a href="/players/"><span class="icon" aria-hidden="true">🌟</span>NBA Legends</a>
+        <a href="/similar-games/"><span class="icon" aria-hidden="true">🏟️</span>Similar Games</a>
+      </nav>
+      <details class="nav-more">
+        <summary><span class="icon" aria-hidden="true">🧭</span>More</summary>
+        <div class="more-links">
+          <a href="/classic-mode/"><span class="icon" aria-hidden="true">💯</span>Classic mode</a>
+          <a href="/hoop-iq/"><span class="icon" aria-hidden="true">🧠</span>HoopIQ</a>
+          <a href="/rules/"><span class="icon" aria-hidden="true">📋</span>Game rules</a>
+          <a href="/can-you-go-82-0/"><span class="icon" aria-hidden="true">🏆</span>Can you go 82-0?</a>
+          <a href="/0-82-challenge/"><span class="icon" aria-hidden="true">🔄</span>The 0-82 challenge</a>
+          <a href="/sport-versions/"><span class="icon" aria-hidden="true">🌍</span>Other sports</a>
+          <a href="/unblocked/"><span class="icon" aria-hidden="true">🔓</span>Unblocked guide</a>
+          <a href="/not-working/"><span class="icon" aria-hidden="true">🛠️</span>Game not working?</a>
+          <a href="/mobile/"><span class="icon" aria-hidden="true">📱</span>Mobile play</a>
+          <a href="/faq/"><span class="icon" aria-hidden="true">💬</span>FAQ</a>
+        </div>
+      </details>
+      <div class="sidebar-bottom">
+        <div class="sidebar-target"><strong>82—0</strong><span>A full season.<br>One undefeated target.</span><div class="mini-rule" aria-hidden="true"></div></div>
+        <p class="sidebar-foot">Built around basketball.<br>Read the cards. Enjoy the chase.</p>
+      </div>
+    </aside>
+<main class="main steal-context" id="main"><nav class="swipe-trail" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">›</span><a href="/stats/">Statistics</a><span aria-hidden="true">›</span><span aria-current="page">Steals Per Game</span></nav><header class="swipe-mast"><div class="swipe-kicker">Stats · Steal casebook</div><h1>Steals Per Game: Follow the Credit</h1><p>A touch, a deflection and a possession-winning steal are different events. Use this 82-0 game casebook to read SPG without losing the credit rules or the decimals.</p></header>
+<div class="swipe-article" data-page-content><section class="swipe-cases" aria-labelledby="swipe-cases"><h2 id="swipe-cases"><span class="swipe-symbol" aria-hidden="true">🖐️</span>Who gets the steal?</h2><p>A steal is about a defensive action that gains possession, not just a hand touching the ball. Open these three situations to follow the credit. They explain basketball events; they are not claims about a hidden possession simulation in 82-0.</p><details open><summary>Case 1 · A defender intercepts a pass</summary><p>The defender reads the pass and takes possession. The interception supplies the steal credit. A pass can look risky without producing a steal if the offensive team keeps the ball.</p></details><details><summary>Case 2 · One defender deflects, a teammate recovers</summary><p>A controlled deflection causes the opponent to lose possession, and a teammate secures the ball. The defender responsible for the deflection can receive the steal. Credit does not automatically follow the person who finishes holding it.</p></details><details><summary>Case 3 · The attacker retains the deflected ball</summary><p>The defender disrupts the pass, but the attacking team recovers and continues. The touch alone does not supply a possession-winning steal. Disruption and credited takeaway are different observations.</p></details></section>
+<section class="swipe-sequence" aria-labelledby="swipe-sequence"><div class="swipe-margin"><strong>1.0</strong><span>SPG in both samples</span><span class="swipe-symbol" aria-hidden="true">📊</span></div><div><h2 id="swipe-sequence">An average leaves the sequence behind</h2><p>Both fictional ten-appearance samples below contain ten steals. One has two five-steal games and eight zeros. The other has one steal in every appearance. Their average is identical; their distribution is not.</p><div class="swipe-scroll" role="region" tabindex="0" aria-label="Scrollable invented steals across ten appearances"><table><caption>Practice distributions, not a player's game log</caption><thead><tr><th scope="col">Appearance</th><th scope="col">Burst sample</th><th scope="col">Even sample</th></tr></thead><tbody><tr><th scope="row">1</th><td>0</td><td>1</td></tr><tr><th scope="row">2</th><td>0</td><td>1</td></tr><tr><th scope="row">3</th><td>0</td><td>1</td></tr><tr><th scope="row">4</th><td>5</td><td>1</td></tr><tr><th scope="row">5</th><td>0</td><td>1</td></tr><tr><th scope="row">6</th><td>0</td><td>1</td></tr><tr><th scope="row">7</th><td>0</td><td>1</td></tr><tr><th scope="row">8</th><td>5</td><td>1</td></tr><tr><th scope="row">9</th><td>0</td><td>1</td></tr><tr><th scope="row">10</th><td>0</td><td>1</td></tr><tr><th scope="row">Total</th><td>10</td><td>10</td></tr><tr><th scope="row">Total ÷ 10</th><td>1.0 SPG</td><td>1.0 SPG</td></tr></tbody></table></div><p>The 82-0 game card gives you an average, not the sequence needed to distinguish these patterns. It would be a mistake to attach a consistency bonus or penalty to either pattern as though the game had displayed it.</p></div></section>
+<div class="swipe-precision"><figure><img src="/images/stats/82-0-steals-decimal-values.png" alt="82-0 Classic player entries showing decimal steals-per-game values beside the other four averages" width="960" height="640" loading="lazy" decoding="async"><figcaption>Keep the decimal shown on the real card when comparing SPG.</figcaption></figure><section aria-labelledby="swipe-precision"><h2 id="swipe-precision"><span class="swipe-symbol" aria-hidden="true">🔬</span>Do not turn half a steal into one</h2><p>A displayed comparison of 1.2 versus 1.7 has a gap of 0.5 SPG. Round each to the nearest whole number and you get 1 versus 2: the apparent gap doubles to 1. Truncate both instead and you get 1 versus 1: the gap disappears.</p><p>Neither shortcut preserves the printed comparison. Copy the decimals first, then subtract within the category. The <a href="/stats/decade-averages/">rounding workbench</a> also explains why adding printed card numbers may differ slightly from a team total formed before display rounding.</p></section></div>
+<aside class="swipe-boundary"><h2>What SPG does not settle</h2><p>Takeaways are valuable, but SPG does not describe every defensive possession. A defender who forces a difficult shot, denies a pass or contains a drive can help without recording a steal. Conversely, this one average does not reveal how often a player gambled and left a teammate exposed.</p><p>SPG uses appearances, rather than minutes or possessions, as its denominator. Equal SPG does not establish equal takeaway rates for every minute played or every possession defended. Those comparisons need information beyond the five displayed averages.</p><p>Read the contribution the card actually supplies. When two legal entries exchange SPG for points or rebounds, use the <a href="/strategy/compare-player-cards/">category comparison</a> rather than calling one the better overall defender. For older defensive entries, the <a href="/stats/blocks/">data inspection file</a> covers the difference between a shown value, a missing value and an estimate.</p></aside>
+</div><div class="swipe-replay"><p>Preserve the SPG decimal and explain the other changes in the same choice.</p><a href="/#play">Play on the homepage →</a></div><footer class="site-footer"><div><strong>82-0 Game</strong><p>Independent guides for basketball drafts.</p><a class="back-top" href="#top">↑ Back to top</a></div><nav class="footer-links" aria-label="Footer"><a href="/about/">About</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/faq/">FAQ</a></nav><span hidden aria-hidden="true"><!--LiveInternet counter--><a href="https://www.liveinternet.ru/click" target="_blank" rel="noopener"><img id="licntD879" width="0" height="0" style="border:0" title="LiveInternet" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7" alt=""></a><script>(function(d,s){d.getElementById("licntD879").src=
+"https://counter.yadro.ru/hit?t45.5;r"+escape(d.referrer)+
+((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+(s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+";h"+escape(d.title.substring(0,150))+";"+Math.random()})
+(document,screen)</script><!--/LiveInternet--></span></footer></main></div>
+<script>(()=>{'use strict';
+      const menu = document.getElementById('menuToggle');
+      const sidebar = document.getElementById('siteNav');
+      const scrim = document.getElementById('navScrim');
+      const pageMain = document.getElementById('main');
+      const mobileQuery = window.matchMedia('(max-width: 820px)');
+      function setMenu(open, restoreFocus = true) {
+        open = Boolean(open && mobileQuery.matches);
+        document.body.classList.toggle('nav-open', open);
+        pageMain.inert = open;
+        if (open) {
+          pageMain.setAttribute('aria-hidden', 'true');
+          sidebar.setAttribute('role', 'dialog');
+          sidebar.setAttribute('aria-modal', 'true');
+        } else {
+          pageMain.removeAttribute('aria-hidden');
+          sidebar.removeAttribute('role');
+          sidebar.removeAttribute('aria-modal');
+        }
+        menu.setAttribute('aria-expanded', String(open));
+        if (open) sidebar.querySelector('a').focus();
+        else if (restoreFocus && mobileQuery.matches) menu.focus();
+      }
+      menu.addEventListener('click', () => setMenu(!document.body.classList.contains('nav-open')));
+      scrim.addEventListener('click', () => setMenu(false));
+      sidebar.addEventListener('click', event => {
+        if (event.target.closest('a') && mobileQuery.matches) setMenu(false, false);
+      });
+      const handleViewport = () => {
+        if (!mobileQuery.matches) setMenu(false, false);
+      };
+      if (mobileQuery.addEventListener) mobileQuery.addEventListener('change', handleViewport);
+      else mobileQuery.addListener(handleViewport);
+      document.addEventListener('keydown', event => {
+        if (event.key === 'Escape') {
+          if (document.body.classList.contains('nav-open')) setMenu(false);
+        }
+        if (event.key === 'Tab' && document.body.classList.contains('nav-open')) {
+          const focusable = [...sidebar.querySelectorAll('a, summary')].filter(el => el.getClientRects().length);
+          const first = focusable[0];
+          const last = focusable[focusable.length - 1];
+          if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+          else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+        }
+      });
+
+
+})();</script></body></html>
