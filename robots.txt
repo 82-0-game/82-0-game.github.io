@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: /player/
-Sitemap: https://82-0-game.github.io/sitemap.xml
